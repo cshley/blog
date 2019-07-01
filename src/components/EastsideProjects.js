@@ -82,7 +82,7 @@ class EastsideProjects extends Component {
           
                   <div class="container">
                  
-                  <a className="linkImageOne" target="_blank" href="/images/thirteen.jpg">
+                  <a className="linkImageOne" target="_blank" href={thirteen}>
                     
                       <img 
                         className="ImageOneEastsideProjects" 
@@ -94,7 +94,7 @@ class EastsideProjects extends Component {
                   </div>
                   
                   <div class="container">
-                  <a className="linkImageTwo" target="_blank" href="/images/twelve.jpg">
+                  <a className="linkImageTwo" target="_blank" href={twelve}>
                     <img 
                       className="ImageTwoEastsideProjects" 
                       src={twelve}
@@ -106,7 +106,7 @@ class EastsideProjects extends Component {
                     
                   
                   <div class="container"> 
-                  <a className="linkImageThree" target="_blank" href="/images/fifteen.jpg">
+                  <a className="linkImageThree" target="_blank" href={fifteen}>
                     <img 
                       className="ImageTwoEastsideProjects" 
                       src={fifteen}

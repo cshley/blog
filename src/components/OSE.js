@@ -109,7 +109,7 @@ class OSE extends Component {
           
                   <div class="container">
                  
-                  <a className="linkImageOne" target="_blank" href="/images/sixteen.jpg">
+                  <a className="linkImageOne" target="_blank" href={sixteen}>
                     
                       <img 
                         className="ImageOneOSE" 
@@ -121,7 +121,7 @@ class OSE extends Component {
                   </div>
                   
                   <div class="container">
-                  <a className="linkImageTwo" target="_blank" href="/images/four.jpg">
+                  <a className="linkImageTwo" target="_blank" href={four}>
                     <img 
                       className="ImageTwoOSE" 
                       src={four}
@@ -132,7 +132,7 @@ class OSE extends Component {
                     </div>
                     
                   <div class="container"> 
-                  <a className="linkImageThree" target="_blank" href="/images/five.jpg">
+                  <a className="linkImageThree" target="_blank" href={five}>
                     <img 
                       className="ImageTwoOSE" 
                       src={five}

@@ -20,7 +20,7 @@ class NAGW extends Component {
                         
 
                 <div class="container">   
-                    <a className="linkImageOne" target="_blank" href="/images/six.jpg">
+                    <a className="linkImageOne" target="_blank" href={six}>
                             <img 
                             className="ImageOneNAGW" 
                             src={six}
@@ -32,7 +32,7 @@ class NAGW extends Component {
                 
                 <div class="container">    
                         
-                    <a className="linkImageOne" target="_blank" href="/images/eight.jpg">      
+                    <a className="linkImageOne" target="_blank" href={eight}>      
                             <img 
                             className="ImageTwoNAGW" 
                             src={eight}
@@ -44,7 +44,7 @@ class NAGW extends Component {
                 
                 <div class="container">   
                         
-                    <a className="linkImageOne" target="_blank" href="/images/seven.jpg">
+                    <a className="linkImageOne" target="_blank" href={seven}>
                         <img 
                         className="ImageThreeNAGW" 
                         src={seven}
@@ -56,7 +56,7 @@ class NAGW extends Component {
                 
                 <div class="container"> 
 
-                    <a className="linkImageOne" target="_blank" href="/images/ten.jpg">
+                    <a className="linkImageOne" target="_blank" href={ten}>
                         <img 
                         className="ImageFourNAGW" 
                         src={ten}

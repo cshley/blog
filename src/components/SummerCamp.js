@@ -20,7 +20,7 @@ class SummerCamp extends Component {
                         
 
                 <div class="container ">   
-                    <a className="linkImageOne" target="_blank" href="/images/one.png">
+                    <a className="linkImageOne" target="_blank" href={one}>
                             <img 
                             className="ImageOneSummerCamp" 
                             src={one}
@@ -32,7 +32,7 @@ class SummerCamp extends Component {
                 
                 <div class="container">    
                         
-                    <a className="linkImageOne" target="_blank" href="/images/nineteen.png">      
+                    <a className="linkImageOne" target="_blank" href={nineteen}>      
                             <img 
                             className="ImageTwoSummerCamp" 
                             src={nineteen}
@@ -45,7 +45,7 @@ class SummerCamp extends Component {
                 
                 <div class="container">   
                         
-                    <a className="linkImageOne" target="_blank" href="/images/seventeen.png">
+                    <a className="linkImageOne" target="_blank" href={seventeen}>
                         <img 
                         className="ImageThreeSummerCamp" 
                         src={seventeen}
@@ -57,7 +57,7 @@ class SummerCamp extends Component {
                 
                 <div class="container"> 
 
-                    <a className="linkImageOne" target="_blank" href="/images/eighteen.png">
+                    <a className="linkImageOne" target="_blank" href={eighteen}>
                         <img 
                         className="ImageFourSummerCamp" 
                         src={eighteen}
