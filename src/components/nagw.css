@@ -156,6 +156,7 @@ h2 {font-family: 'Frank Ruhl Libre';
     .ImageBorderNAGWThree, .ImageBorderNAGWTop{
         width: 100%;
     }
+
     .ImageBorderNAGWTwo {
         padding-bottom: 5%;
     }
@@ -165,16 +166,17 @@ h2 {font-family: 'Frank Ruhl Libre';
 
     .nagwTextWrapper {
         padding-top:5%; 
+        overflow:scroll;
+        overflow-x: hidden;
+        scrollbar-width: thick;
+        padding-right:2%;
+        height:30em;
     }
-
-    .nagwText {
-      font-size: 13px;
-      
-        
-        }
+    
 
      h2 {
          font-size: 38px;
+        
      }
 }
 
@@ -310,22 +312,31 @@ and (max-width: 479px) {
 /*Large Screens */
 @media screen and (min-width: 1600px) and (max-width:3000px) {
     
-    .ImageBorderNAGWThree, .ImageBorderNAGWTop, .ImageBorderNAGWEnd {
+    .ImageBorderNAGWThree, .ImageBorderNAGWTop{
         width: 100%;
-       
     }
+
+    .ImageBorderNAGWTwo {
+        padding-bottom: 5%;
+    }
+     .ImageBorderNAGWEnd {
+         padding-top: 5%;
+     }
 
     .nagwTextWrapper {
-        padding-top:5%;
+        padding-top:5%; 
+        overflow:scroll;
+        overflow-x: hidden;
+        scrollbar-width: thick;
+        font-size: 13px;
+        padding-right:2%;
+        height:30em;
     }
+    
 
-    .nagwText {
-        font-size: 18px;
-          
-          }
-
-    h2 {
-        font-size: 60px;
-    }
+     h2 {
+         font-size: 40px;
+        
+}
 }/*end media query*/
 

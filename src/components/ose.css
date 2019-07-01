@@ -332,19 +332,32 @@ and (max-width: 479px) {
 
 /*Large Screens */
 @media screen and (min-width: 1600px) and (max-width:3000px) {
-    .ImageBorderOSEThree, .ImageBorderOSETop, .ImageBorderOSEEnd {
+    .ImageBorderOSEThree, .ImageBorderOSETop{
         width: 100%;
     }
 
-    .oseText{
-       font-size: 18px;
-    }
+    .ImageBorderOSETwo {padding-bottom: 5%}
+    .ImageBorderOSEThree {padding-top: 5%}
+    .ImageBorderOSETop, .ImageBorderOSEEnd{
+        padding-bottom: 5%;
+        padding-top: 5%;}
 
     .oseTextWrapper {
-        padding-top:5%;
+        padding-top:5%; 
     }
 
-    h2 {
-        font-size: 80px;
-    }
+    .oseText {
+        font-size: 13px;
+        overflow:scroll;
+        overflow-x: hidden;
+        scrollbar-width: thick;
+        padding-left:2%;
+        direction: rtl;
+        height:45em;
+          
+        }
+     h2 {
+         font-size: 40px;
+     }
+    
 }/*end media query*/

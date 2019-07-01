@@ -185,7 +185,6 @@ margin-right: auto;}
     }
 
 
-
     .AboutText {
         font-size: 13px;
         overflow:scroll;
@@ -344,24 +343,44 @@ and (max-width: 479px) {
 
 /*Large Screens */
 @media screen and (min-width: 1600px) and (max-width:3000px) {
-    .ImageBorderAboutCVThree, .ImageBorderAboutCVTop, .ImageBorderAboutCVEnd {
+ 
+    .ImageBorderAboutCVThree, .ImageBorderAboutCVTop{
         width: 100%;
     }
 
-    .AboutText{
-       font-size: 18px;
+    .ImageBorderAboutCVTop, .ImageBorderAboutCVEnd, .ImageBorderAboutCVOne {
+        padding-bottom: 5%;
+        padding-top:5%; 
     }
 
-    .CVText{
-        font-size: 18px;
+
+    .AboutText {
+        font-size: 13px;
+        overflow:scroll;
+        overflow-x: hidden;
+        scrollbar-width: thick;
+        padding-left:2%;
+        direction: rtl;
+        height:25em;
+          
+        }
+
+    .CVText {
+            font-size: 13px;
+            overflow:scroll;
+            overflow-x: hidden;
+            scrollbar-width: thick;
+            padding-right:2%;
+            direction: ltr;
+            height:25em;
+    
+              
+            }   
+     h2 {
+         font-size: 40px;
      }
 
-
-    h2 {
-        font-size: 80px;
-    }
-
-    .ImageBorderAboutCVTwo, .aboutCVTitle {
+     .ImageBorderAboutCVTwo, .aboutCVTitle {
         display: none;
     }
 }/*end media query*/

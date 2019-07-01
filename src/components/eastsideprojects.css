@@ -291,19 +291,25 @@ and (max-width: 479px) {
 
 /*Large Screens */
 @media screen and (min-width: 1600px) and (max-width:3000px) {
-    .ImageBorderEastsideProjectsThree, .ImageBorderEastsideProjectsTop, .ImageBorderEastsideProjectsEnd {
+    .ImageBorderEastsideProjectsThree, .ImageBorderEastsideProjectsTop{
         width: 100%;
     }
 
-    .EastsideProjectsText{
-       font-size: 18px;
-    }
+    .ImageBorderEastsideProjectsTwo {padding-bottom: 5%}
+    .ImageBorderEastsideProjectsThree {padding-top: 5%}
+    .ImageBorderEastsideProjectsTop, .ImageBorderEastsideProjectsEnd{
+        padding-bottom: 5%;
+        padding-top: 5%;}
 
     .EastsideProjectsTextWrapper {
-        padding-top:5%;
+        padding-top:5%; 
     }
 
-    h2 {
-        font-size: 80px;
-    }
+    .EastsideProjectsText {
+        font-size: 13px;
+          
+        }
+     h2 {
+         font-size: 40px;
+     }
 }/*end media query*/
