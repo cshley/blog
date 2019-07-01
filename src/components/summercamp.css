@@ -1,0 +1,331 @@
+.SummerCampPage > .flex-container {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right:10%; 
+    cursor:crosshair;
+
+    
+}
+
+    .col-1 {width: 8.33vw;
+    }
+    .col-2 {width: 16.66%;
+    }
+    .col-3 {width: 25%;
+    }
+    .col-4 {width: 33.33%;
+    }
+    .col-5 {width: 41.66%;
+    }
+    .col-6 {width: 50%;
+    }
+    .col-7 {width: 58.33%;
+    }
+    .col-8 {width: 66.66%;
+    }
+    .col-9 {width: 75%;
+    }
+    .col-10 {width: 83.33%;
+    }
+    .col-11 {width: 91.66%;
+    }
+    .col-12 {width: 100%;
+    }
+
+    /* Text */
+
+h2 {font-family: 'Frank Ruhl Libre';
+    color:#c997ff;
+    letter-spacing: 1.5em;
+    text-align: center;
+    position: relative;
+    left: 5%;
+    }
+
+.SummerCampText {
+    font-family: 'Frank Ruhl Libre';
+    color:#FFB500;
+    font-size: 13px;
+    word-wrap:normal;
+    text-align:left;
+
+
+    }
+
+.SummerCampTextCenter {
+    text-align:center;
+
+}
+
+.purple {
+    color: #c997ff;
+}
+
+/* Link */
+
+#link2018:target:before  {
+    content:"";
+    display:block;
+    height:200px; 
+    margin:-200px 0 0;
+      }
+
+/* Images */
+
+.ImageOneSummerCamp, .ImageTwoSummerCamp, .ImageThreeSummerCamp, .ImageFourSummerCamp, .ImageFiveSummerCamp, .ImageSixSummerCamp {
+    max-width: 100%;
+    max-height: auto;
+    flex-wrap: wrap;
+}
+
+
+/* Hover Overlay */
+
+.container {
+    position: relative;
+    width: auto;
+    max-width: 100%;
+  }
+
+
+.SummerCampoverlay  {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: .1s ease;
+    background-color: #c997ff;
+    
+  }
+
+  .container:hover .SummerCampoverlay {
+    opacity: 0.2;
+  }
+
+
+/* Border */
+
+.ImageBorderSummerCampOne,.ImageBorderSummerCampTwo,.ImageBorderSummerCampThree, .ImageBorderSummerCampEnd {
+    max-width: 100%;
+    max-height: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+/* Media Queries */
+
+/*Mac*/
+
+@media screen and (min-width: 1024px) and (max-width: 1199px)  {
+
+    .ImageBorderSummerCampThree, .ImageBorderSummerCampTop{
+        width: 100%;
+    }
+.ImageBorderSummerCampTwo {padding-bottom: 5%}
+.ImageBorderSummerCampEnd {padding-top: 5%}
+
+    .SummerCampTextWrapper {
+        padding-top:5%; 
+        overflow:scroll;
+        height:30em;
+        overflow-x: hidden;
+        scrollbar-width:thick;
+        padding-right:2%;
+    }
+
+
+     h2 {
+         font-size: 38px;
+     }
+}
+
+
+/*tablet landscape*/
+
+@media screen and (min-width: 1199px) and (max-width: 1599px)  {
+
+    .ImageBorderSummerCampThree, .ImageBorderSummerCampTop{
+        width: 100%;
+    }
+
+    .ImageBorderSummerCampTwo {padding-bottom: 5%}
+.ImageBorderSummerCampEnd {padding-top: 5%}
+
+    .SummerCampText{
+        padding-top:5%; 
+    }
+
+    .SummerCampText {
+        font-size: 13px;
+        overflow:scroll;
+        overflow-x: hidden;
+        scrollbar-width: thick;
+        padding-right:2%;
+        height:30em; 
+         
+        }
+
+     h2 {
+         font-size: 38px;
+     }
+}
+
+/*tablet portrait*/
+
+@media screen and (min-width: 768px) and (max-width: 1023px)  {
+
+    .ImageBorderSummerCampThree, .ImageBorderSummerCampTop, .ImageBorderSummerCampEnd {
+        width: 100%;
+    }
+    .columnOneSummerCamp, .columnTwoSummerCamp {
+        height: 80%;
+    
+    }
+
+    .ImageBorderSummerCampTwo {padding-bottom: 5%}
+    .ImageBorderSummerCampEnd {padding-top: 5%}
+  
+    .SummerCampText {
+        font-size: 13px;
+        overflow:scroll;
+        overflow-x: hidden;
+        scrollbar-width: thick;
+        padding-right:2%;
+        height:29em;
+          
+          }
+ 
+     h2 {
+         font-size: 40px;
+     }
+
+}
+/*end media query*/
+
+
+/*smartphone landscape*/
+@media screen and (min-width: 480px) and (max-width: 767px)  {
+
+    .columnOneSummerCamp, .columnTwoSummerCamp, .columnThree, .columnFour, .columnFive {
+        width: 100%;
+        height: auto;
+        flex-flow: column;
+        padding-bottom:1%; 
+        flex: 100%; 
+    }
+
+    .SummerCampTextCenter {
+        padding-bottom:5%; 
+    }
+    
+    .ImageBorderSummerCampTop, .ImageBorderSummerCampEnd {
+        display:none;
+    } 
+
+    .ImageBorderSummerCampOne {
+        padding-top: 5%;
+    }
+
+    .ImageBorderSummerCampTwo {
+        padding-bottom: 5%;
+    }
+
+    .columnOneSummerCamp {
+        order: 2;
+        -webkit-order: 2;
+      
+    }
+    .columnTwoSummerCamp { 
+        order: 1;
+        -webkit-order: 1;
+    }
+
+    h2 {font-size: 25px;}
+
+    #link2018:target:before  {
+        content:"";
+        display:block;
+        height:125px; 
+        margin:-125px 0 0;
+          }
+
+
+
+}/*End media query*/
+
+
+
+/*smartphone portrait*/
+@media screen and (min-width: 0px)
+and (max-width: 479px) {
+
+    .columnOneSummerCamp, .columnTwoSummerCamp {
+        width: 100%;
+        height: auto;
+        padding-bottom:1%; 
+        max-height: 80%;
+    }
+    .columnOneSummerCamp {
+        order: 2;
+        -webkit-order: 2;
+      
+    }
+    .columnTwoSummerCamp { 
+        order: 1;
+        -webkit-order: 1;
+    }
+
+    .ImageBorderSummerCampOne {
+        padding-top: 10%;
+    }
+      
+
+    .SummerCampText{
+        height:100%;
+        font-size: 13px; 
+        width: 100%;
+        padding-bottom: 5%;
+
+    }
+    
+    .ImageBorderSummerCampTop, .ImageBorderSummerCampEnd {
+        display:none;
+    } 
+
+    #link2018:target:before  {
+        content:"";
+        display:block;
+        height:90px; 
+        margin:-90px 0 0;
+          }
+
+}/*end media query*/
+
+/*Large Screens */
+@media screen and (min-width: 1600px) and (max-width:3000px) {
+    
+    .ImageBorderSummerCampThree, .ImageBorderSummerCampTop, .ImageBorderSummerCampEnd {
+        width: 100%;
+        height: auto;
+    }
+
+    .SummerCampTextWrapper {
+        padding-top:5%;
+    }
+
+    .SummerCampText {
+        font-size: 17px;
+          
+    }
+
+    h2 {
+        font-size: 60px;
+    }
+}/*end media query*/

@@ -1,0 +1,367 @@
+* {cursor:crosshair;}
+
+
+
+/* Grid Layout */
+
+.AboutCVPage > .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right:10%; 
+    padding-top:2%;
+    cursor:crosshair;
+    height: 100%;
+   
+}
+
+    .col-1 {width: 8.33%;
+    }
+    .col-2 {width: 16.66%;
+    }
+    .col-3 {width: 25%;
+    }
+    .col-4 {width: 33.33%;
+    }
+    .col-5 {width: 41.66%;
+    }
+    .col-6 {width: 50%;
+    }
+    .col-7 {width: 58.33%;
+    }
+    .col-8 {width: 66.66%;
+    }
+    .col-9 {width: 75%;
+    }
+    .col-10 {width: 83.33%;
+    }
+    .col-11 {width: 91.66%;
+    }
+    .col-12 {width: 100%;
+    }
+
+
+
+
+/* Text */
+
+h2 { font-family: 'Frank Ruhl Libre';
+    color:#c997ff;
+    font-size: 18px;
+    letter-spacing: 1.5em;
+    text-align: center;
+    position: relative;
+    left: 5%;
+    }
+
+.AboutText {
+    font-family: 'Frank Ruhl Libre';
+    color: #FFB500;
+    font-size: 13px;
+    word-wrap:normal;
+    text-align:center;
+    }
+
+
+
+.AboutTextCenter {
+    text-align:center;
+}
+
+.CVText {
+    font-family: 'Frank Ruhl Libre';
+    color: #FFB500;
+    font-size: 13px;
+    word-wrap:normal;
+    text-align:center;
+    scrollbar-width: thick;
+    padding-right:2%;
+    cursor:crosshair;
+    
+    }
+
+.CVTextCenter {
+    text-align:center;
+}
+
+.purple {
+    color: #c997ff;
+}
+
+.aboutCVTitle {
+margin-left: auto;
+margin-right: auto;}
+
+/* Link */
+
+#linkMenu:target:before  {
+    content:"";
+    display:block;
+    height:200px; 
+    margin:-200px 0 0;
+      }
+
+/* Border */
+
+.ImageBorderAboutCVOne, .ImageBorderAboutCVTwo,.ImageBorderAboutCVThree,.ImageBorderAboutCVTop,  .ImageBorderAboutCVEnd {
+    max-width: 100%;
+    max-height: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ImageBorderAboutCVEnd {
+    padding-top: 5%;
+}
+
+
+
+/* Media Queries */
+
+/*Mac*/
+
+@media screen and (min-width: 1024px) and (max-width: 1199px)  {
+
+    .ImageBorderAboutCVThree, .ImageBorderAboutCVTop{
+        width: 100%;
+    }
+
+    .AboutTextWrapper {
+        padding-top:5%; 
+        overflow:scroll;
+        overflow-x: hidden;
+        scrollbar-width: thick;
+        padding-left:2%;
+        direction: rtl;
+        height:29.5em;
+        font-size: 13px;
+    }
+
+
+    .CVTextWrapper {
+        
+        overflow:scroll;
+        overflow-x: hidden;
+        scrollbar-width: thick;
+        padding-right:2%;
+        direction: ltr;
+      
+      
+       
+    }
+
+    .CVText {
+        height:29.5em;
+    }
+    
+
+
+     h2 {
+         font-size: 38px;
+     }
+
+     .ImageBorderAboutCVTwo, .aboutCVTitle {
+        display: none;
+    }
+
+    .ImageBorderAboutCVTop, .ImageBorderAboutCVEnd, .ImageBorderAboutCVOne {
+        padding-bottom: 5%;
+        padding-top:5%; 
+    }
+}
+
+/*tablet landscape*/
+@media screen and (min-width: 1199px) and (max-width: 1599px)  {
+
+    .ImageBorderAboutCVThree, .ImageBorderAboutCVTop{
+        width: 100%;
+    }
+
+    .ImageBorderAboutCVTop, .ImageBorderAboutCVEnd, .ImageBorderAboutCVOne {
+        padding-bottom: 5%;
+        padding-top:5%; 
+    }
+
+
+
+    .AboutText {
+        font-size: 13px;
+        overflow:scroll;
+        overflow-x: hidden;
+        scrollbar-width: thick;
+        padding-left:2%;
+        direction: rtl;
+        height:25em;
+          
+        }
+
+    .CVText {
+            font-size: 13px;
+            overflow:scroll;
+            overflow-x: hidden;
+            scrollbar-width: thick;
+            padding-right:2%;
+            direction: ltr;
+            height:25em;
+    
+              
+            }   
+     h2 {
+         font-size: 38px;
+     }
+
+     .ImageBorderAboutCVTwo, .aboutCVTitle {
+        display: none;
+    }
+
+} /*end media query*/
+
+/*tablet portrait*/
+@media screen and (min-width: 768px) and (max-width: 1023px)  {
+
+    .ImageBorderAboutCVThree, .ImageBorderAboutCVTop, .ImageBorderAboutCVEnd {
+        width: 100%;
+    }
+    .ImageBorderAboutCVTop, .ImageBorderAboutCVEnd, .ImageBorderAboutCVOne {
+        padding-bottom: 5%;
+        padding-top:5%; 
+    }
+    .AboutText {
+       
+        overflow:scroll;
+        overflow-x: hidden;
+        scrollbar-width: thick;
+        padding-left:2%;
+        direction: rtl;
+        height:30em;
+           }
+
+    .CVText {
+        
+        overflow:scroll;
+        overflow-x: hidden;
+        scrollbar-width: thick;
+        padding-right:2%;
+        direction: ltr;
+        height:30em;
+           }
+ 
+     h2 {
+         font-size: 28px;
+     }
+
+     .ImageBorderAboutCVTwo, .aboutCVTitle {
+        display: none;
+    }
+
+}/*end media query*/
+
+
+/*smartphone landscape*/
+@media screen and (min-width: 480px) and (max-width: 767px)  {
+
+    .columnOneAboutCV {
+        width: auto;
+        flex-direction: column; 
+        padding-bottom:1%;  
+        
+    }
+
+    
+    .columnTwoAboutCV {
+        width: 100%;
+        height: auto;
+        flex-direction:column;  
+        padding-top:1%;    
+      
+    }
+
+    .AboutText{
+        height:100%;
+        font-size: 13px;
+        padding-bottom:2.5%; 
+    }
+
+    .CVText{
+        height:100%;
+        font-size: 13px;
+        padding-top:2.5%; 
+    }
+    
+    .ImageBorderAboutCVTop, .ImageBorderAboutCVEnd {
+        display:none;
+    } 
+
+
+
+    .ImageBorderAboutCVTwo {
+        padding-bottom: 5% }
+    
+
+    #linkMenu:target:before  {
+        content:"";
+        display:block;
+        height:160px; 
+        margin:-160px 0 0;
+          }
+   
+
+}/*End media query*/
+
+
+
+/*smartphone portrait*/
+@media screen and (min-width: 0px)
+and (max-width: 479px) {
+
+    .AboutText{
+        max-width: 100%;
+        height:100%;
+        font-size: 13px;    
+        
+    }
+
+    .CVText{
+        max-width: 100%;
+        height:100%;
+        font-size: 13px;
+    }
+    
+    .ImageBorderAboutCVTop, .ImageBorderAboutCVEnd{
+        display:none;
+    } 
+
+    #linkMenu:target:before  {
+        content:"";
+        display:block;
+        height:130px; 
+        margin:-130px 0 0;
+          }
+
+}/*end media query*/
+
+/*Large Screens */
+@media screen and (min-width: 1600px) and (max-width:3000px) {
+    .ImageBorderAboutCVThree, .ImageBorderAboutCVTop, .ImageBorderAboutCVEnd {
+        width: 100%;
+    }
+
+    .AboutText{
+       font-size: 18px;
+    }
+
+    .CVText{
+        font-size: 18px;
+     }
+
+
+    h2 {
+        font-size: 80px;
+    }
+
+    .ImageBorderAboutCVTwo, .aboutCVTitle {
+        display: none;
+    }
+}/*end media query*/
