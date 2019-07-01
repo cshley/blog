@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
 import './home.css';
+import '../images/twentyone.jpeg';
+import '../images/border.png';
 
 class Home extends Component {
     render() {

@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import './aboutcv.css';
+import '../images/border.png';
 
 class AboutCV extends Component {
     render() {

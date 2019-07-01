@@ -1,5 +1,9 @@
 import React, {Component} from 'react';
 import './ose.css';
+import '../images/five.jpg';
+import '../images/four.jpg';
+import '../images/sixteen.jpg';
+import '../images/border.png';
 
 class OSE extends Component {
     render() {

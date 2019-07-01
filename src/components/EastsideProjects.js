@@ -1,5 +1,9 @@
 import React, {Component} from 'react';
 import './eastsideprojects.css';
+import '../images/thirteen.jpg';
+import '../images/twelve.jpg';
+import '../images/fifteen.jpg';
+import '../images/border.png';
 
 class EastsideProjects extends Component {
     render() {

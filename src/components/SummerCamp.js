@@ -1,5 +1,10 @@
 import React, {Component} from 'react';
 import './summercamp.css';
+import '../images/one.png';
+import '../images/nineteen.png';
+import '../images/seventeen.png';
+import '../images/eighteen.png';
+import '../images/border.png';
 
 class SummerCamp extends Component {
     render() {

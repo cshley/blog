@@ -1,5 +1,10 @@
 import React, {Component} from 'react';
 import './nagw.css';
+import '../images/six.jpg';
+import '../images/eight.jpg';
+import '../images/seven.jpg';
+import '../images/ten.jpg';
+import '../images/border.png';
 
 class NAGW extends Component {
     render() {
