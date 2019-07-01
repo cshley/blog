@@ -193,13 +193,8 @@ and (max-width: 767px) {
             padding-bottom: 2%;}
 
         .ImageBorderHomeTop {
-           
+            width: 100%;
             padding-top: 5%;
             padding-bottom:5%;
-            padding-left:0;
-            padding-right:0;    
-           
-        
-            
             }
     }
