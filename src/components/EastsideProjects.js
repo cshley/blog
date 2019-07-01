@@ -1,9 +1,9 @@
 import React, {Component} from 'react';
 import './eastsideprojects.css';
-import '../images/thirteen.jpg';
-import '../images/twelve.jpg';
-import '../images/fifteen.jpg';
-import '../images/border.png';
+import thirteen from '../images/thirteen.jpg';
+import twelve from '../images/twelve.jpg';
+import fifteen from '../images/fifteen.jpg';
+import border from '../images/border.png';
 
 class EastsideProjects extends Component {
     render() {
@@ -15,7 +15,7 @@ class EastsideProjects extends Component {
              
                 <img 
                       className="ImageBorderEastsideProjectsTop" 
-                      src="/images/border.png"
+                      src={border}
                       alt="Purple Dashed Border">
                     </img>
              
@@ -23,7 +23,7 @@ class EastsideProjects extends Component {
                   
                   <img 
                       className="ImageBorderEastsideProjectsOne" 
-                      src="/images/border.png"
+                      src={border}
                       alt="Purple Dashed Border">
                     </img>
 
@@ -31,7 +31,7 @@ class EastsideProjects extends Component {
                   
                    <img 
                       className="ImageBorderEastsideProjectsTwo" 
-                      src="/images/border.png"
+                      src= {border}
                       alt="Purple Dashed Border">
                     </img>
                     <div className="EastsideProjectsTextWrapper">
@@ -72,7 +72,7 @@ class EastsideProjects extends Component {
                       
                         <img 
                             className="ImageBorderEastsideProjectsThree" 
-                            src="/images/border.png"
+                            src={border}
                             alt="Purple Dashed Border">
                         </img>
                 </div>
@@ -86,7 +86,7 @@ class EastsideProjects extends Component {
                     
                       <img 
                         className="ImageOneEastsideProjects" 
-                        src="/images/thirteen.jpg"
+                        src={thirteen}
                         alt="Eastside Projects 2016">
                       </img>
                       <div className="EastsideProjectsoverlay"> </div>
@@ -97,7 +97,7 @@ class EastsideProjects extends Component {
                   <a className="linkImageTwo" target="_blank" href="/images/twelve.jpg">
                     <img 
                       className="ImageTwoEastsideProjects" 
-                      src="/images/twelve.jpg"
+                      src={twelve}
                       alt="Eastside Projects Install 2016">
                     </img>
                     <div className="EastsideProjectsoverlay"> </div>
@@ -109,7 +109,7 @@ class EastsideProjects extends Component {
                   <a className="linkImageThree" target="_blank" href="/images/fifteen.jpg">
                     <img 
                       className="ImageTwoEastsideProjects" 
-                      src="/images/fifteen.jpg"
+                      src={fifteen}
                       alt="Eastside Projects 2016">
                     </img>
                     <div className="EastsideProjectsoverlay"> </div>
@@ -120,7 +120,7 @@ class EastsideProjects extends Component {
                  
                   <img 
                       className="ImageBorderEastsideProjectsEnd" 
-                      src="/images/border.png"
+                      src={border}
                       alt="Purple Dashed Border">
                     </img>
               </div>

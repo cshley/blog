@@ -1,10 +1,10 @@
 import React, {Component} from 'react';
 import './summercamp.css';
-import '../images/one.png';
-import '../images/nineteen.png';
-import '../images/seventeen.png';
-import '../images/eighteen.png';
-import '../images/border.png';
+import one from '../images/one.png';
+import nineteen from '../images/nineteen.png';
+import seventeen from  '../images/seventeen.png';
+import eighteen from '../images/eighteen.png';
+import border from '../images/border.png';
 
 class SummerCamp extends Component {
     render() {
@@ -23,7 +23,7 @@ class SummerCamp extends Component {
                     <a className="linkImageOne" target="_blank" href="/images/one.png">
                             <img 
                             className="ImageOneSummerCamp" 
-                            src="/images/one.png"
+                            src={one}
                             alt="Summer Camp 2018">
                             </img>
                             <div className="SummerCampoverlay"> </div>
@@ -35,7 +35,7 @@ class SummerCamp extends Component {
                     <a className="linkImageOne" target="_blank" href="/images/nineteen.png">      
                             <img 
                             className="ImageTwoSummerCamp" 
-                            src="/images/nineteen.png"
+                            src={nineteen}
                             alt="Summer Camp 2018"
                             >
                             </img>
@@ -48,7 +48,7 @@ class SummerCamp extends Component {
                     <a className="linkImageOne" target="_blank" href="/images/seventeen.png">
                         <img 
                         className="ImageThreeSummerCamp" 
-                        src="/images/seventeen.png"
+                        src={seventeen}
                         alt="Summer Camp 2018">
                         </img>
                         <div className="SummerCampoverlay"></div>
@@ -60,7 +60,7 @@ class SummerCamp extends Component {
                     <a className="linkImageOne" target="_blank" href="/images/eighteen.png">
                         <img 
                         className="ImageFourSummerCamp" 
-                        src="/images/eighteen.png"
+                        src={eighteen}
                         alt="Summer Camp 2018">
                         </img>
                         <div className="SummerCampoverlay"></div>
@@ -74,7 +74,7 @@ class SummerCamp extends Component {
                   
                   <img 
                       className="ImageBorderSummerCampOne" 
-                      src="/images/border.png"
+                      src={border}
                       alt="Purple Dashed Border"
                      >
                     </img>
@@ -83,7 +83,7 @@ class SummerCamp extends Component {
                   
                    <img 
                       className="ImageBorderSummerCampTwo" 
-                      src="/images/border.png"
+                      src={border}
                       alt="Purple Dashed Border">
                     </img>
                     
@@ -186,7 +186,7 @@ class SummerCamp extends Component {
                     </div>
                     <img 
                         className="ImageBorderSummerCampEnd" 
-                        src="/images/border.png"
+                        src={border}
                         alt="Purple Dashed Border"
                        >
                         </img>   

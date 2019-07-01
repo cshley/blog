@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import './aboutcv.css';
-import '../images/border.png';
+import border from '../images/border.png';
 
 class AboutCV extends Component {
     render() {
@@ -13,7 +13,7 @@ class AboutCV extends Component {
                
                     <img 
                         className="ImageBorderAboutCVTop" 
-                        src="/images/border.png"
+                        src={border}
                         alt="Purple Dashed Border"
                     >
                             
@@ -24,7 +24,7 @@ class AboutCV extends Component {
                   
                     <img 
                       className="ImageBorderAboutCVOne" 
-                      src="/images/border.png"
+                      src={border}
                       alt="Purple Dashed Border">
                     </img>
 
@@ -32,7 +32,7 @@ class AboutCV extends Component {
                     <a id="linkMenu"> </a>
                     <img 
                       className="ImageBorderAboutCVTwo" 
-                      src="/images/border.png"
+                      src={border}
                       alt="Purple Dashed Border">
                     </img>
                     
@@ -75,7 +75,7 @@ class AboutCV extends Component {
                     </div>
                     <img 
                         className="ImageBorderAboutCVEnd" 
-                        src="/images/border.png"
+                        src={border}
                         alt="Purple Dashed Border"
                         >
                         </img>     
@@ -87,7 +87,7 @@ class AboutCV extends Component {
 
             <img 
                       className="ImageBorderAboutCVOne" 
-                      src="/images/border.png"
+                      src={border}
                       alt="Purple Dashed Border">
                     </img>
 
@@ -173,13 +173,13 @@ Lou Lou Sainsbury and Emily Whitebread<br />
 </div>
 <img 
                         className="ImageBorderAboutCVEnd" 
-                        src="/images/border.png"
+                        src={border}
                         alt="Purple Dashed Border">
                         </img>             
 </div>  
 <img 
                         className="ImageBorderAboutCVEnd" 
-                        src="/images/border.png"
+                        src={border}
                         alt="Purple Dashed Border">
                         </img> 
 

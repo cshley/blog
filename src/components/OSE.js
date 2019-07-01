@@ -1,9 +1,9 @@
 import React, {Component} from 'react';
 import './ose.css';
-import '../images/five.jpg';
-import '../images/four.jpg';
-import '../images/sixteen.jpg';
-import '../images/border.png';
+import five from '../images/five.jpg';
+import four from  '../images/four.jpg';
+import sixteen from '../images/sixteen.jpg';
+import border from '../images/border.png';
 
 class OSE extends Component {
     render() {
@@ -14,7 +14,7 @@ class OSE extends Component {
               <div className="flex-container">
                 <img 
                       className="ImageBorderOSETop" 
-                      src="/images/border.png"
+                      src={border}
                       alt="Purple Dashed Border">
                     </img>
              
@@ -22,7 +22,7 @@ class OSE extends Component {
                   
                   <img 
                       className="ImageBorderOSEOne" 
-                      src="/images/border.png"
+                      src={border}
                       alt="Purple Dashed Border">
                     </img>
 
@@ -30,7 +30,7 @@ class OSE extends Component {
                   
                    <img 
                       className="ImageBorderOSETwo" 
-                      src="/images/border.png"
+                      src={border}
                       alt="Purple Dashed Border">
                     </img>
                     <div className="oseTextWrapper">
@@ -99,7 +99,7 @@ class OSE extends Component {
                       
                         <img 
                             className="ImageBorderOSEThree" 
-                            src="/images/border.png"
+                            src={border}
                             alt="Purple Dashed Border">
                         </img>
                 </div>
@@ -113,7 +113,7 @@ class OSE extends Component {
                     
                       <img 
                         className="ImageOneOSE" 
-                        src="/images/sixteen.jpg"
+                        src={sixteen}
                         alt="Open School East Install 2017">
                       </img>
                       <div className="OSEoverlay"> </div>
@@ -124,7 +124,7 @@ class OSE extends Component {
                   <a className="linkImageTwo" target="_blank" href="/images/four.jpg">
                     <img 
                       className="ImageTwoOSE" 
-                      src="/images/four.jpg"
+                      src={four}
                       alt="Open School East Install 2017">
                     </img>
                     <div className="OSEoverlay"> </div>
@@ -135,7 +135,7 @@ class OSE extends Component {
                   <a className="linkImageThree" target="_blank" href="/images/five.jpg">
                     <img 
                       className="ImageTwoOSE" 
-                      src="/images/five.jpg"
+                      src={five}
                       alt="Open School East Install 2017">
                     </img>
                     <div className="OSEoverlay"> </div>
@@ -147,7 +147,7 @@ class OSE extends Component {
            
                   <img 
                       className="ImageBorderOSEEnd" 
-                      src="/images/border.png"
+                      src={border}
                       alt="Purple Dashed Border">
                     </img>
                     

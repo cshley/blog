@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import './home.css';
-import '../images/twentyone.jpeg';
-import '../images/border.png';
+import twentyOne from '../images/twentyone.jpeg';
+import border from '../images/border.png';
 
 class Home extends Component {
     render() {
@@ -14,18 +14,18 @@ class Home extends Component {
         <div className="columnOneHome col-12">
         <img 
                         className="ImageBorderHomeTop" 
-                        src="/images/border.png"
+                        src={border}
                         alt="Purple Dashed Border">
         </img> 
         
             
         
             <img className="ImageOneHome" 
-                        src="/images/twentyone.jpeg"
+                        src={twentyOne}
                         alt="Bog">
             </img>
             <img className="ImageTwoHome" 
-                        src="/images/twentyone.jpeg"
+                        src={twentyOne}
                         alt="Bog">
             </img>
     

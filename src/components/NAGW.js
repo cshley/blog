@@ -1,10 +1,10 @@
 import React, {Component} from 'react';
 import './nagw.css';
-import '../images/six.jpg';
-import '../images/eight.jpg';
-import '../images/seven.jpg';
-import '../images/ten.jpg';
-import '../images/border.png';
+import six from '../images/six.jpg';
+import eight from '../images/eight.jpg';
+import seven from '../images/seven.jpg';
+import ten from '../images/ten.jpg';
+import border from'../images/border.png';
 
 class NAGW extends Component {
     render() {
@@ -23,7 +23,7 @@ class NAGW extends Component {
                     <a className="linkImageOne" target="_blank" href="/images/six.jpg">
                             <img 
                             className="ImageOneNAGW" 
-                            src="/images/six.jpg"
+                            src={six}
                             alt="New Art Gallery Walsall Install 2016">
                             </img>
                             <div className="NAGWoverlay"> </div>
@@ -35,7 +35,7 @@ class NAGW extends Component {
                     <a className="linkImageOne" target="_blank" href="/images/eight.jpg">      
                             <img 
                             className="ImageTwoNAGW" 
-                            src="/images/eight.jpg"
+                            src={eight}
                             alt="New Art Gallery Walsall Install 2016">
                             </img>
                             <div className="NAGWoverlay"> </div>
@@ -47,7 +47,7 @@ class NAGW extends Component {
                     <a className="linkImageOne" target="_blank" href="/images/seven.jpg">
                         <img 
                         className="ImageThreeNAGW" 
-                        src="/images/seven.jpg"
+                        src={seven}
                         alt="New Art Gallery Walsall Install 2016">
                         </img>
                         <div className="NAGWoverlay"></div>
@@ -59,7 +59,7 @@ class NAGW extends Component {
                     <a className="linkImageOne" target="_blank" href="/images/ten.jpg">
                         <img 
                         className="ImageFourNAGW" 
-                        src="/images/ten.jpg"
+                        src={ten}
                         alt="New Art Gallery Walsall Install 2016">
                         </img>
                         <div className="NAGWoverlay"></div>
@@ -73,7 +73,7 @@ class NAGW extends Component {
                   
                   <img 
                       className="ImageBorderNAGWOne" 
-                      src="/images/border.png"
+                      src={border}
                       alt="Purple Dashed Border">
                     </img>
 
@@ -81,7 +81,7 @@ class NAGW extends Component {
                   
                    <img 
                       className="ImageBorderNAGWTwo" 
-                      src="/images/border.png"
+                      src={border}
                       alt="Purple Dashed Border">
                     </img>
                     
@@ -142,7 +142,7 @@ class NAGW extends Component {
                     </div>
                     <img 
                         className="ImageBorderNAGWEnd" 
-                        src="/images/border.png"
+                        src={border}
                         alt="Purple Dashed Border">
                         </img>     
             </div>
