@@ -331,8 +331,8 @@ and (max-width: 479px) {
 }/*end media query*/
 
 /*Large Screens */
-@media screen and (min-width: 1600px) and (max-width:3000px) {
-    .ImageBorderOSEThree, .ImageBorderOSETop{
+@media screen and (min-width: 1600px) and (max-width:10000px) {
+    .ImageBorderOSEThree, .ImageBorderOSETop, .ImageBorderOSEEnd{
         width: 100%;
     }
 
@@ -347,7 +347,7 @@ and (max-width: 479px) {
     }
 
     .oseText {
-        font-size: 13px;
+        font-size: 15px;
         overflow:scroll;
         overflow-x: hidden;
         scrollbar-width: thick;

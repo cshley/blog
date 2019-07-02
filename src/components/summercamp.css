@@ -309,23 +309,31 @@ and (max-width: 479px) {
 }/*end media query*/
 
 /*Large Screens */
-@media screen and (min-width: 1600px) and (max-width:3000px) {
-    
-    .ImageBorderSummerCampThree, .ImageBorderSummerCampTop, .ImageBorderSummerCampEnd {
+@media screen and (min-width: 1600px) and (max-width:10000px) {
+    .ImageBorderSummerCampThree, .ImageBorderSummerCampTop{
         width: 100%;
-        height: auto;
     }
 
-    .SummerCampTextWrapper {
-        padding-top:5%;
+    .ImageBorderSummerCampTwo {padding-bottom: 5%}
+.ImageBorderSummerCampEnd {padding-top: 5%}
+
+    .SummerCampText{
+        padding-top:5%; 
     }
 
     .SummerCampText {
-        font-size: 17px;
-          
-    }
+        font-size: 13px;
+        overflow:scroll;
+        overflow-x: hidden;
+        scrollbar-width: thick;
+        padding-right:2%;
+        font-size: 15px;
+        height:30em; 
+         
+        }
 
-    h2 {
-        font-size: 60px;
-    }
+     h2 {
+         font-size: 38px;
+     }
+    
 }/*end media query*/

@@ -9,8 +9,9 @@
     line-height: 2;
     margin:0%;
     z-index: 3;
-    white-space: nowrap;
+    position: -webkit-fixed;
     position: fixed;
+    white-space: nowrap;
     top: 0%;
     background-color: white;
     width: 100%;
@@ -28,7 +29,6 @@
         max-width: 100%; 
         left: 13%;
         right: auto;
-        position: fixed;
         z-index: 2;
     }
 
@@ -76,6 +76,7 @@
     left: 100%;
     top: 0%;
     transform: translateX(-100%);  
+    
     
   }
   
@@ -138,7 +139,7 @@
 and (max-width: 479px) {
   
   .titleMenu {
-    position:fixed;
+
     font-size: 23px;
     width: 100%;
     padding: 0%;
@@ -163,7 +164,7 @@ and (max-width: 479px) {
 
   .titleMenu {
     font-size: 30px;
-    position: fixed;
+   
     width: 100%;
     padding: 0%;
     margin: 0%;
@@ -185,7 +186,7 @@ and (max-width: 479px) {
 
     .titleMenu {
       font-size: 30px;
-      position: fixed;
+     
       width: 100%;
       padding: 0%;
       margin: 0%;
@@ -200,7 +201,7 @@ and (max-width: 479px) {
 @media screen and (min-width: 820px) and (max-width: 1023px){
   .titleMenu {
     font-size: 30px;
-    position: fixed;
+    
     width: 100%;
     padding: 0%;
     margin: 0%;
@@ -219,7 +220,7 @@ and (max-width: 479px) {
 @media screen and (min-width: 1024px) and (max-width: 1199px)
 {.titleMenu {
   font-size: 30px;
-  position: fixed;
+ 
     width: 100%;
     padding: 0%;
     margin: 0%;
@@ -232,11 +233,12 @@ and (max-width: 479px) {
   font-size: 16px;
 }
 }
-@media screen and (min-width: 1200px) and (max-width: 3000px)
+@media screen and (min-width: 1200px) and (max-width: 10000px)
 
 {.titleMenu {
-  font-size: 30px;
-  position: fixed;
+  font-size: 40px;
+    position: -webkit-fixed;
+    position: fixed;
     width: 100%;
     padding: 0%;
     margin: 0%;

@@ -290,8 +290,8 @@ and (max-width: 479px) {
 }/*end media query*/
 
 /*Large Screens */
-@media screen and (min-width: 1600px) and (max-width:3000px) {
-    .ImageBorderEastsideProjectsThree, .ImageBorderEastsideProjectsTop{
+@media screen and (min-width: 1600px) and (max-width:10000px) {
+    .ImageBorderEastsideProjectsThree, .ImageBorderEastsideProjectsTop, .ImageBorderEastsideProjectsEnd {
         width: 100%;
     }
 
@@ -306,7 +306,7 @@ and (max-width: 479px) {
     }
 
     .EastsideProjectsText {
-        font-size: 13px;
+        font-size: 15px;
           
         }
      h2 {

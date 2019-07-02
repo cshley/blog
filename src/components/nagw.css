@@ -310,7 +310,7 @@ and (max-width: 479px) {
 }/*end media query*/
 
 /*Large Screens */
-@media screen and (min-width: 1600px) and (max-width:3000px) {
+@media screen and (min-width: 1600px) and (max-width:10000px) {
     
     .ImageBorderNAGWThree, .ImageBorderNAGWTop{
         width: 100%;
@@ -328,7 +328,7 @@ and (max-width: 479px) {
         overflow:scroll;
         overflow-x: hidden;
         scrollbar-width: thick;
-        font-size: 13px;
+        font-size: 15px;
         padding-right:2%;
         height:30em;
     }

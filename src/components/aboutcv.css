@@ -1,11 +1,5 @@
 * {cursor:crosshair;}
 
-body {
-    transform: scale(1);
-    transform-origin: 0 0;
- }
-
-
 
 /* Grid Layout */
 
@@ -161,7 +155,6 @@ margin-right: auto;}
         height:29.5em;
     }
     
-
 
      h2 {
          font-size: 38px;
@@ -347,9 +340,9 @@ and (max-width: 479px) {
 }/*end media query*/
 
 /*Large Screens */
-@media screen and (min-width: 1600px) and (max-width:3000px) {
+@media screen and (min-width: 1600px) and (max-width:10000px) {
  
-    .ImageBorderAboutCVThree, .ImageBorderAboutCVTop{
+    .ImageBorderAboutCVThree, .ImageBorderAboutCVTop, .ImageBorderAboutCVEnd {
         width: 100%;
     }
 
@@ -360,7 +353,7 @@ and (max-width: 479px) {
 
 
     .AboutText {
-        font-size: 13px;
+        font-size: 15px;
         overflow:scroll;
         overflow-x: hidden;
         scrollbar-width: thick;
@@ -371,7 +364,7 @@ and (max-width: 479px) {
         }
 
     .CVText {
-            font-size: 13px;
+            font-size: 15px;
             overflow:scroll;
             overflow-x: hidden;
             scrollbar-width: thick;
