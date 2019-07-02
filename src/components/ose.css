@@ -5,54 +5,69 @@
     flex-wrap: wrap;
     justify-content: space-between;
     padding-left: 10%;
-    padding-right:10%; 
-    cursor:crosshair;
+    padding-right: 10%;
+    cursor: crosshair;
     height: 100%;
 
-   
 }
 
-    .col-1 {width: 8.33%;
-    }
-    .col-2 {width: 16.66%;
-    }
-    .col-3 {width: 25%;
-    }
-    .col-4 {width: 33.33%;
-    }
-    .col-5 {width: 41.66%;
-    }
-    .col-6 {width: 50%;
-    }
-    .col-7 {width: 58.33%;
-    }
-    .col-8 {width: 66.66%;
-    }
-    .col-9 {width: 75%;
-    }
-    .col-10 {width: 83.33%;
-    }
-    .col-11 {width: 91.66%;
-    }
-    .col-12 {width: 100%;
-    }
+.col-1 {
+    width: 8.33%;
+}
+.col-2 {
+    width: 16.66%;
+}
+.col-3 {
+    width: 25%;
+}
+.col-4 {
+    width: 33.33%;
+}
+.col-5 {
+    width: 41.66%;
+}
+.col-6 {
+    width: 50%;
+}
+.col-7 {
+    width: 58.33%;
+}
+.col-8 {
+    width: 66.66%;
+}
+.col-9 {
+    width: 75%;
+}
+.col-10 {
+    width: 83.33%;
+}
+.col-11 {
+    width: 91.66%;
+}
+.col-12 {
+    width: 100%;
+}
 
 /* Link */
-
-#link2017:target:before  {
-    content:"";
-    display:block;
-    height:200px; 
-    margin:-200px 0 0;
-      }
-    
+#link2017:target:before {
+    content: "";
+    display: block;
+    height: 200px;
+    margin: -200px 0 0;
+}
 
 /* Images */
 
-.ImageOneOSE, .ImageTwoOSE, .ImageThreeOSE {
+.ImageOneOSE,
+.ImageThreeOSE,
+.ImageTwoOSE {
     max-width: 100%;
     max-height: auto;
     flex-wrap: wrap;
+}
+
+.linkImageOne {
+    max-width: 70;
 }
 
 /* Hover Overlay */
@@ -61,48 +76,45 @@
     position: relative;
     width: auto;
     max-width: 100%;
-  }
+}
 
-
-.OSEoverlay  {
+.OSEoverlay {
     position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
     opacity: 0;
-    transition: .1s ease;
+    transition: 0.1s ease;
     background-color: #FFB500;
-    
-  }
 
-  .container:hover .OSEoverlay {
+}
+.container:hover .OSEoverlay {
     opacity: 0.2;
-  }
-
-  
+}
 
 /* Text */
 
-h2 { font-family: 'Frank Ruhl Libre';
-    color:#c997ff;
+h2 {
+    font-family: 'Frank Ruhl Libre';
+    color: #c997ff;
     font-size: 18px;
     letter-spacing: 1.5em;
     text-align: center;
     position: relative;
     left: 5%;
-    }
+}
 
 .oseText {
     font-family: 'Frank Ruhl Libre';
     color: #FFB500;
     font-size: 15px;
-    word-wrap:normal;
-    text-align:left;
-    }
+    word-wrap: normal;
+    text-align: left;
+}
 
 .oseTextCenter {
-    text-align:center;
+    text-align: center;
 }
 
 .purple {
@@ -111,7 +123,11 @@ h2 { font-family: 'Frank Ruhl Libre';
 
 /* Border */
 
-.ImageBorderOSEOne,.ImageBorderOSETwo,.ImageBorderOSEThree, .ImageBorderOSETop, .ImageBorderOSEEnd {
+.ImageBorderOSEEnd,
+.ImageBorderOSEOne,
+.ImageBorderOSEThree,
+.ImageBorderOSETop,
+.ImageBorderOSETwo {
     max-width: 100%;
     max-height: 25%;
     display: block;
@@ -127,86 +143,116 @@ h2 { font-family: 'Frank Ruhl Libre';
     padding-bottom: 5%;
 }
 
-
 /* Media Queries */
 
-/*Mac*/
+/*smartphone portrait*/
+@media screen and (min-width: 0px) and (max-width: 479px) {
 
-@media screen and (min-width: 1024px) and (max-width: 1199px)  {
-
-    .ImageBorderOSEThree, .ImageBorderOSETop{
+    .columnOneOSE {
         width: 100%;
+        height: auto;
+        flex-direction: column;
+        padding-bottom: 1%;
     }
 
-    .ImageBorderOSETwo {padding-bottom: 5%}
-    .ImageBorderOSEThree {padding-top: 5%}
-    .ImageBorderOSETop, .ImageBorderOSEEnd{
-        padding-bottom: 5%;
-        padding-top: 5%;
-      
+    .columnTwoOSE {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        padding-top: 1%;
+
     }
-    
+
     .oseText {
+        height: 100%;
         font-size: 13px;
-        overflow:scroll;
-        overflow-x: hidden;
-        scrollbar-width: thick;
-        padding-left:2%;
-        direction: rtl;
-        height:40em;
-           }
-           
+        padding-bottom: 5%;
+    }
 
-     h2 {
-         font-size: 38px;
-     }
+    .ImageBorderOSEEnd,
+    .ImageBorderOSEThree,
+    .ImageBorderOSETop {
+        display: none;
+    }
+
+    .ImageBorderOSEOne {
+        padding-top: 10%;
+    }
+    #link2017:target:before {
+        content: "";
+        display: block;
+        height: 90px;
+        margin: -90px 0 0;
+    }
+
 }
 
-/*tablet landscape*/
-@media screen and (min-width: 1199px) and (max-width: 1599px)  {
+/*smartphone landscape*/
+@media screen and (min-width: 480px) and (max-width: 767px) {
 
-    .ImageBorderOSEThree, .ImageBorderOSETop{
-        width: 100%;
+    .columnOneOSE {
+        width: auto;
+        flex-direction: column;
+        padding-bottom: 1%;
+        flex-wrap: wrap;
     }
 
-    .ImageBorderOSETwo {padding-bottom: 5%}
-    .ImageBorderOSEThree {padding-top: 5%}
-    .ImageBorderOSETop, .ImageBorderOSEEnd{
-        padding-bottom: 5%;
-        padding-top: 5%;}
+    .columnTwoOSE {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        padding-top: 1%;
+        flex-wrap: wrap;
+        padding-top: 5%;
 
-    .oseTextWrapper {
-        padding-top:5%; 
     }
 
     .oseText {
+        height: 100%;
         font-size: 13px;
-        overflow:scroll;
-        overflow-x: hidden;
-        scrollbar-width: thick;
-        padding-left:2%;
-        direction: rtl;
-        height:45em;
-          
-        }
-     h2 {
-         font-size: 38px;
-     }
+    }
 
-} /*end media query*/
+    .ImageBorderOSEEnd,
+    .ImageBorderOSEThree,
+    .ImageBorderOSETop {
+        display: none;
+    }
+
+    .ImageBorderOSEOne {
+        padding-top: 5%;
+    }
+    .ImageBorderOSETwo {
+        padding-bottom: 5%;
+    }
+    #link2017:target:before {
+        content: "";
+        display: block;
+        height: 125px;
+        margin: -125px 0 0;
+    }
+
+}
 
 /*tablet portrait*/
-@media screen and (min-width: 768px) and (max-width: 1023px)  {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
 
-    .ImageBorderOSEThree, .ImageBorderOSETop, .ImageBorderOSEEnd {
+    .ImageBorderOSEEnd,
+    .ImageBorderOSEThree,
+    .ImageBorderOSETop {
         width: 100%;
     }
 
-    .ImageBorderOSETwo {padding-bottom: 5%}
-    .ImageBorderOSEThree {padding-top: 5%}
-    .ImageBorderOSETop, .ImageBorderOSEEnd{
+    .ImageBorderOSETwo {
         padding-bottom: 5%;
-        padding-top: 5%;}
+    }
+    .ImageBorderOSEThree {
+        padding-top: 5%;
+    }
+    .ImageBorderOSEEnd,
+    .ImageBorderOSETop {
+        padding-bottom: 5%;
+        padding-top: 5%;
+    }
 
     .ImageBorderOSETwo {
         padding-bottom: 5%;
@@ -222,142 +268,140 @@ h2 { font-family: 'Frank Ruhl Libre';
 
     .oseText {
         font-size: 13px;
-        overflow:scroll;
+        overflow: scroll;
         overflow-x: hidden;
         scrollbar-width: thick;
-        padding-left:2%;
+        padding-left: 2%;
         direction: rtl;
-        height:30em;
-           }
- 
-     h2 {
-         font-size: 40px;
-     }
+        height: 30em;
+    }
 
-     .ImageOneOSE, .ImageTwoOSE, .ImageThreeOSE {
-         height: auto;
-     }
+    h2 {
+        font-size: 40px;
+    }
 
-}/*end media query*/
-
-
-/*smartphone landscape*/
-@media screen and (min-width: 480px) and (max-width: 767px)  {
-
-    .columnOneOSE {
-        width: auto;
-        flex-direction: column; 
-        padding-bottom:1%;
-        flex-wrap: wrap;}
-
-    
-    .columnTwoOSE {
-        width: 100%;
+    .ImageOneOSE,
+    .ImageThreeOSE,
+    .ImageTwoOSE {
         height: auto;
-        flex-direction:column;  
-        padding-top:1%;  
-        flex-wrap: wrap; 
-        padding-top: 5%; 
-      
     }
 
-    .oseText{
-        height:100%;
-        font-size: 13px;
-    }
-    
-    .ImageBorderOSETop, .ImageBorderOSEEnd, .ImageBorderOSEThree {
-        display:none;
-    } 
+}
 
-   
+/*Mac*/
+@media screen and (min-width: 1024px) and (max-width: 1199px) {
 
-    .ImageBorderOSEOne {padding-top: 5%;}
-    .ImageBorderOSETwo {padding-bottom: 5%;}
-    
-    
-
-    #link2017:target:before  {
-        content:"";
-        display:block;
-        height:125px; 
-        margin:-125px 0 0;
-          }
-
-}/*End media query*/
-
-
-
-/*smartphone portrait*/
-@media screen and (min-width: 0px)
-and (max-width: 479px) {
-
-    .columnOneOSE {
-        width: 100%;
-        height: auto;
-        flex-direction: column; 
-        padding-bottom:1%;  
-    }
-
-    .columnTwoOSE {
-        width: 100%;
-        height: auto;
-        flex-direction:column;  
-        padding-top:1%;   
-      
-    }
-
-    .oseText{
-        height:100%;
-        font-size: 13px;
-        padding-bottom: 5%
-    }
-    
-    .ImageBorderOSETop, .ImageBorderOSEEnd, .ImageBorderOSEThree {
-        display:none;
-    }
-    
-    .ImageBorderOSEOne  {
-        padding-top: 10%;
-    }
-
-    #link2017:target:before  {
-        content:"";
-        display:block;
-        height:90px; 
-        margin:-90px 0 0;
-          }
-
-}/*end media query*/
-
-/*Large Screens */
-@media screen and (min-width: 1600px) and (max-width:10000px) {
-    .ImageBorderOSEThree, .ImageBorderOSETop, .ImageBorderOSEEnd{
+    .ImageBorderOSEThree,
+    .ImageBorderOSETop {
         width: 100%;
     }
 
-    .ImageBorderOSETwo {padding-bottom: 5%}
-    .ImageBorderOSEThree {padding-top: 5%}
-    .ImageBorderOSETop, .ImageBorderOSEEnd{
+    .ImageBorderOSETwo {
         padding-bottom: 5%;
-        padding-top: 5%;}
+    }
+    .ImageBorderOSEThree {
+        padding-top: 5%;
+    }
+    .ImageBorderOSEEnd,
+    .ImageBorderOSETop {
+        padding-bottom: 5%;
+        padding-top: 5%;
+
+    }
+
+    .oseText {
+        font-size: 13px;
+        overflow: scroll;
+        overflow-x: hidden;
+        scrollbar-width: thick;
+        padding-left: 2%;
+        direction: rtl;
+        height: 40em;
+    }
+
+    h2 {
+        font-size: 38px;
+    }
+}
+
+/*tablet landscape*/
+@media screen and (min-width: 1199px) and (max-width: 1599px) {
+
+    .ImageBorderOSEThree,
+    .ImageBorderOSETop {
+        width: 100%;
+    }
+
+    .ImageBorderOSETwo {
+        padding-bottom: 5%;
+    }
+    .ImageBorderOSEThree {
+        padding-top: 5%;
+    }
+    .ImageBorderOSEEnd,
+    .ImageBorderOSETop {
+        padding-bottom: 5%;
+        padding-top: 5%;
+    }
 
     .oseTextWrapper {
-        padding-top:5%; 
+        padding-top: 5%;
+    }
+
+    .oseText {
+        font-size: 13px;
+        overflow: scroll;
+        overflow-x: hidden;
+        scrollbar-width: thick;
+        padding-left: 2%;
+        direction: rtl;
+        height: 45em;
+
+    }
+    h2 {
+        font-size: 38px;
+    }
+
+}
+
+/*Large Screens and Zoom */
+@media screen and (min-width: 1600px) and (max-width:10000px) {
+    .ImageBorderOSEEnd,
+    .ImageBorderOSEThree,
+    .ImageBorderOSETop {
+        width: 100%;
+    }
+
+    .ImageBorderOSETwo {
+        padding-bottom: 5%;
+    }
+    .ImageBorderOSEThree {
+        padding-top: 5%;
+    }
+    .ImageBorderOSEEnd,
+    .ImageBorderOSETop {
+        padding-bottom: 5%;
+        padding-top: 5%;
+    }
+
+    .oseTextWrapper {
+        padding-top: 5%;
     }
 
     .oseText {
         font-size: 15px;
-        overflow:scroll;
+        overflow: scroll;
         overflow-x: hidden;
         scrollbar-width: thick;
-        padding-left:2%;
+        padding-left: 2%;
         direction: rtl;
-        height:45em;
-          
-        }
-     h2 {
-         font-size: 40px;
-     }
-    
-}/*end media query*/
+        height: 45em;
+
+    }
+    h2 {
+        font-size: 40px;
+    }
+
+}
+
+/*end of media queries*/

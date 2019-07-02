@@ -141,7 +141,7 @@ class AboutCV extends Component {
                             </div>
                             <img className="ImageBorderAboutCVEnd" src={border} alt="Purple Dashed Border"></img>
                         </div>
-                        <img className="ImageBorderAboutCVEnd" src={border} alt="Purple Dashed Border"></img>
+                        <img className="ImageBorderAboutCVEndPage" src={border} alt="Purple Dashed Border"></img>
 
                     </div>
 
