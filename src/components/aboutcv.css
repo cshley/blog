@@ -369,12 +369,14 @@ h2 {
 
     .ImageBorderAboutCVEnd,
     .ImageBorderAboutCVEndPage,
+    .ImageBorderAboutCVEndPage,
     .ImageBorderAboutCVThree,
     .ImageBorderAboutCVTop {
         width: 100%;
     }
 
     .ImageBorderAboutCVEnd,
+    .ImageBorderAboutCVEndPage,
     .ImageBorderAboutCVOne,
     .ImageBorderAboutCVTop {
         padding-bottom: 5%;
