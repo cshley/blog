@@ -387,7 +387,7 @@ h2 {
     }
 
     .AboutText {
-        font-size: 15px;
+        font-size: 20px;
         overflow: scroll;
         overflow-x: hidden;
         scrollbar-width: thick;
@@ -398,7 +398,7 @@ h2 {
     }
 
     .CVText {
-        font-size: 15px;
+        font-size: 20px;
         overflow: scroll;
         overflow-x: hidden;
         scrollbar-width: thick;

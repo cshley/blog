@@ -204,7 +204,6 @@ and (max-width: 479px) {
 @media screen and (min-width: 820px) and (max-width: 1023px){
   .titleMenu {
     font-size: 30px;
-    
     width: 100%;
     margin: 0%;
     text-align: center;
@@ -222,7 +221,6 @@ and (max-width: 479px) {
 @media screen and (min-width: 1024px) and (max-width: 1199px)
 {.titleMenu {
   font-size: 30px;
- 
     width: 100%;
     margin: 0%;
     text-align: center;
@@ -237,7 +235,7 @@ and (max-width: 479px) {
 @media screen and (min-width: 1200px) and (max-width: 10000px)
 
 {.titleMenu {
-  font-size: 40px;
+  font-size: 50px;
     width: 100%;
     margin: 0%;
     text-align: center;
@@ -246,7 +244,7 @@ and (max-width: 479px) {
 .navbar, .dropdown {z-index: 4;}
 
 .dropdown, .dropbtn, .dropdown-content a,.navbar a  {
-  font-size: 16px;
+  font-size: 20px;
   z-index: 4;
 }
 }
