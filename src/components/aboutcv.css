@@ -368,14 +368,18 @@ h2 {
 @media screen and (min-width: 1600px) and (max-width:10000px) {
 
     .ImageBorderAboutCVEnd,
-    .ImageBorderAboutCVEndPage,
     .ImageBorderAboutCVThree,
     .ImageBorderAboutCVTop {
         width: 100%;
     }
 
+    .ImageBorderAboutCVEndPage {
+        width: 100%;
+        padding-bottom: 5%;
+        padding-top: 5%;
+    }
+
     .ImageBorderAboutCVEnd,
-    .ImageBorderAboutCVEndPage,
     .ImageBorderAboutCVOne,
     .ImageBorderAboutCVTop {
         padding-bottom: 5%;
