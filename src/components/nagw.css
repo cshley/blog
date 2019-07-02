@@ -117,6 +117,54 @@ h2 {font-family: 'Frank Ruhl Libre';
 
 /* Media Queries */
 
+/*smartphone portrait*/
+@media screen and (min-width: 0px)
+and (max-width: 479px) {
+
+    .columnOneNAGW,  .columnTwoNAGW {
+        width: 100%;
+        height: auto;
+        flex-direction: column; 
+        padding-bottom:1%; 
+        height: 80%;
+        flex-wrap: wrap;
+    }
+
+    .columnOneNAGW {
+        order: 2;
+        -webkit-order: 2;
+      
+    }
+    .columnTwoNAGW { 
+        order: 1;
+        -webkit-order: 1;
+    }
+      
+
+    .nagwText{
+        height:100%;
+        font-size: 13px;
+        padding-bottom: 5%
+
+    }
+    
+    .ImageBorderNAGWTop, .ImageBorderNAGWEnd {
+        display:none;
+    } 
+
+    .ImageBorderNAGWOne {
+        padding-top: 10%;
+    }
+
+    #link2016:target:before  {
+        content:"";
+        display:block;
+        height:90px; 
+        margin:-90px 0 0;
+          }
+
+}
+
 /*Mac*/
 
 @media screen and (min-width: 1024px) and (max-width: 1199px)  {
@@ -261,53 +309,7 @@ h2 {font-family: 'Frank Ruhl Libre';
 
 
 
-/*smartphone portrait*/
-@media screen and (min-width: 0px)
-and (max-width: 479px) {
 
-    .columnOneNAGW,  .columnTwoNAGW {
-        width: 100%;
-        height: auto;
-        flex-direction: column; 
-        padding-bottom:1%; 
-        height: 80%;
-        flex-wrap: wrap;
-    }
-
-    .columnOneNAGW {
-        order: 2;
-        -webkit-order: 2;
-      
-    }
-    .columnTwoNAGW { 
-        order: 1;
-        -webkit-order: 1;
-    }
-      
-
-    .nagwText{
-        height:100%;
-        font-size: 13px;
-        padding-bottom: 5%
-
-    }
-    
-    .ImageBorderNAGWTop, .ImageBorderNAGWEnd {
-        display:none;
-    } 
-
-    .ImageBorderNAGWOne {
-        padding-top: 10%;
-    }
-
-    #link2016:target:before  {
-        content:"";
-        display:block;
-        height:90px; 
-        margin:-90px 0 0;
-          }
-
-}/*end media query*/
 
 /*Large Screens */
 @media screen and (min-width: 1600px) and (max-width:10000px) {
