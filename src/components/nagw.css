@@ -143,7 +143,7 @@ and (max-width: 479px) {
 
     .nagwText{
         height:100%;
-        font-size: 13px;
+        font-size: 14px;
         padding-bottom: 5%
 
     }
@@ -280,7 +280,8 @@ and (max-width: 479px) {
         padding-top: 5%;
     }
 
-    .nagwTextCenter {padding-bottom: 5%;}
+    .nagwTextCenter {padding-bottom: 5%;
+        font-size: 13px;}
 
     .ImageBorderNAGWTwo {
         padding-bottom: 5%;
