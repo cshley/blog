@@ -7,8 +7,7 @@ class Menu extends Component {
 
             <div className="Menu flex-container">
 
-                    <a className="titleMenuMobile" href="#linkMenu">
-                        c h l o e | a s h l e y</a>
+                    <a className="titleMenuMobile" href="#linkMenu">c h l o e | a s h l e y</a>
 
                     <div className="navbar">
                     <br />

@@ -157,7 +157,7 @@
 /*Media*/
 
 /*smartphone portrait*/
-@media screen and (min-width: 0) and (max-width: 320px) {
+@media screen and (min-width: 0) and (max-width: 319px) {
 
   li {
     display: inline;
@@ -172,7 +172,7 @@
         padding-top: 5%;
         padding-left: 0;
         font-size: 20px;
-        width: 103%;
+        width: 101%;
         margin: 0;
         text-align: center;
         white-space: nowrap;
@@ -233,7 +233,7 @@
         padding-top: 3%;
         padding-left: 0;
         font-size: 20px;
-        width: 103%;
+        width: 105%;
         margin: 0;
         text-align: center;
         white-space: nowrap;
@@ -280,7 +280,7 @@
 }
 
 /*smartphone landscape*/
-@media screen and (min-width: 479px) and (max-width: 767px) {
+@media screen and (min-width: 480px) and (max-width: 767px) {
 
   li {
     display: inline;
@@ -293,9 +293,9 @@
     }
 
     .titleMenuMobile {
-        padding-top: 3.5%;
+       
         padding-left: 0;
-        font-size: 20px;
+        font-size: 30px;
         width: 102%;
         margin: 0;
         text-align: center;
@@ -307,7 +307,7 @@
         top: 5%;
         white-space: nowrap;
         float: left;
-        padding: 12% 0 2%;
+        padding: 10% 0 2%;
         text-decoration: none;
         font-size: 15px;
         width: 33.3%;
@@ -337,7 +337,6 @@
 
     li {
       display: inline;
-    
     }
   
       .navbar {
@@ -348,7 +347,7 @@
       .titleMenuMobile {
           padding-top: 1%;
           padding-left: 0;
-          font-size: 25px;
+          font-size: 35px;
           width: 102%;
           margin: 0;
           text-align: center;
@@ -360,9 +359,9 @@
           top: 1%;
           white-space: nowrap;
           float: left;
-          padding: 1% 0 2%;
+          padding: 10% 0 2%;
           text-decoration: none;
-          font-size: 13px;
+          font-size: 15px;
           width: 33.3%;
           /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
           text-align: center;
@@ -402,7 +401,7 @@
         .titleMenuMobile {
             padding-top: 1%;
             padding-left: 0;
-            font-size: 25px;
+            font-size: 35px;
             width: 102%;
             margin: 0;
             text-align: center;
@@ -414,9 +413,9 @@
             top: 5%;
             white-space: nowrap;
             float: left;
-            padding: 5% 0 2%;
+            padding: 8% 0 2%;
             text-decoration: none;
-            font-size: 13px;
+            font-size: 15px;
             width: 33.3%;
             /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
             text-align: center;
@@ -440,6 +439,59 @@
       }
     
 
+
+      @media screen and (min-width: 1199px) and (max-width: 10000px) {
+
+        li {
+          display: inline;
+        
+        }
+      
+          .navbar {
+              width: 100%;
+              padding: 0;
+          }
+      
+          .titleMenuMobile {
+              padding-top: 1%;
+              padding-left: 0;
+              font-size: 45px;
+              width: 102%;
+              margin: 0;
+              text-align: center;
+              white-space: nowrap;
+              z-index: 4;
+      
+          }
+          .navbar a {
+              top: 5%;
+              white-space: nowrap;
+              float: left;
+              padding: 8% 0 2%;
+              text-decoration: none;
+              font-size: 20px;
+              width: 33.3%;
+              /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+              text-align: center;
+          }
+        
+      
+          .dropdown,
+          .mobileMenuAbout,
+          .titleMenuLaptop {
+              position: absolute;
+              visibility: hidden;
+              display: none;
+          }
+      
+          .dropbtn,
+          .dropdown,
+          .dropdown-content a {
+              font-size: 15px;
+              white-space: nowrap;
+          }
+        }
+      
 
 
 /* To work on at a later date

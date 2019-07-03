@@ -102,7 +102,7 @@
     }
 
     .ImageBorderHomeTop {
-        padding-top: 18%;
+        padding-top: 28%;
     }
 
     /*Important for smartphone layout*/
@@ -174,7 +174,7 @@
     }
 
     .ImageOneHome {
-        max-width: 50%;
+        max-width: 85%;
         height: auto;
         flex: column;
         padding-top: 2%;
