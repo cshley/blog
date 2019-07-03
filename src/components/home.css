@@ -80,7 +80,39 @@
 }
 
 /*Media*/
-@media screen and (min-width: 0px) and (max-width: 479px) {
+@media screen and (min-width: 0px) and (max-width: 320px) {
+    .ImageOneHome {
+        max-width: 100%;
+        height: auto;
+        flex: column;
+        padding-top: 5%;
+        padding-bottom: 0;
+    }
+
+    .ImageTwoHome {
+        max-width: 100%;
+        height: auto;
+        flex: column;
+        padding-top: 5%;
+        padding-bottom: 0;
+        -moz-transform: scale(-1, -1);
+        -o-transform: scale(-1, -1);
+        -webkit-transform: scale(-1, -1);
+        transform: scale(-1, -1);
+    }
+
+    .ImageBorderHomeTop {
+        padding-top: 28%;
+    }
+
+    /*Important for smartphone layout*/
+    .col-5 {
+        width: 100%;
+    }
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
     .ImageOneHome {
         max-width: 100%;
         height: auto;
