@@ -5,42 +5,54 @@
     flex-wrap: wrap;
     justify-content: space-between;
     padding-left: 10%;
-    padding-right:10%; 
-    cursor:crosshair;
+    padding-right: 10%;
+    cursor: crosshair;
     height: 100%;
-  
-   
+
 }
 
-    .col-1 {width: 8.33%;
-    }
-    .col-2 {width: 16.66%;
-    }
-    .col-3 {width: 25%;
-    }
-    .col-4 {width: 33.33%;
-    }
-    .col-5 {width: 41.66%;
-    }
-    .col-6 {width: 50%;
-    }
-    .col-7 {width: 58.33%;
-    }
-    .col-8 {width: 66.66%;
-    }
-    .col-9 {width: 75%;
-    }
-    .col-10 {width: 83.33%;
-    }
-    .col-11 {width: 91.66%;
-    }
-    .col-12 {width: 100%;
-    }
-
+.col-1 {
+    width: 8.33%;
+}
+.col-2 {
+    width: 16.66%;
+}
+.col-3 {
+    width: 25%;
+}
+.col-4 {
+    width: 33.33%;
+}
+.col-5 {
+    width: 41.66%;
+}
+.col-6 {
+    width: 50%;
+}
+.col-7 {
+    width: 58.33%;
+}
+.col-8 {
+    width: 66.66%;
+}
+.col-9 {
+    width: 75%;
+}
+.col-10 {
+    width: 83.33%;
+}
+.col-11 {
+    width: 91.66%;
+}
+.col-12 {
+    width: 100%;
+}
 
 /* Images */
 
-.ImageOneEastsideProjects, .ImageTwoEastsideProjects, .ImageThreeEastsideProjects {
+.ImageOneEastsideProjects,
+.ImageThreeEastsideProjects,
+.ImageTwoEastsideProjects {
     max-width: 100%;
     max-height: auto;
     flex-wrap: wrap;
@@ -52,48 +64,45 @@
     position: relative;
     width: auto;
     max-height: 100%;
-  }
+}
 
-
-.EastsideProjectsoverlay  {
+.EastsideProjectsoverlay {
     position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
     opacity: 0;
-    transition: .1s ease;
+    transition: 0.1s ease;
     background-color: #FFB500;
-    
-  }
 
-  .container:hover .EastsideProjectsoverlay {
+}
+.container:hover .EastsideProjectsoverlay {
     opacity: 0.2;
-  }
-
-  
+}
 
 /* Text */
 
-h2 { font-family: 'Frank Ruhl Libre';
-    color:#c997ff;
+h2 {
+    font-family: 'Frank Ruhl Libre';
+    color: #c997ff;
     font-size: 18px;
     letter-spacing: 1.5em;
     text-align: center;
     position: relative;
     left: 5%;
-    }
+}
 
 .EastsideProjectsText {
     font-family: 'Frank Ruhl Libre';
     color: #FFB500;
     font-size: 15px;
-    word-wrap:normal;
-    text-align:left;
-    }
+    word-wrap: normal;
+    text-align: left;
+}
 
 .EastsideProjectsTextCenter {
-    text-align:center;
+    text-align: center;
 }
 
 .purple {
@@ -102,7 +111,11 @@ h2 { font-family: 'Frank Ruhl Libre';
 
 /* Border */
 
-.ImageBorderEastsideProjectsOne,.ImageBorderEastsideProjectsTwo,.ImageBorderEastsideProjectsThree, .ImageBorderEastsideProjectsTop, .ImageBorderEastsideProjectsEnd {
+.ImageBorderEastsideProjectsEnd,
+.ImageBorderEastsideProjectsOne,
+.ImageBorderEastsideProjectsThree,
+.ImageBorderEastsideProjectsTop,
+.ImageBorderEastsideProjectsTwo {
     max-width: 100%;
     max-height: 25%;
     display: block;
@@ -121,126 +134,149 @@ h2 { font-family: 'Frank Ruhl Libre';
 /* Media Queries */
 
 /*Mac*/
+@media screen and (min-width: 1024px) and (max-width: 1199px) {
 
-@media screen and (min-width: 1024px) and (max-width: 1199px)  {
-
-    .ImageBorderEastsideProjectsThree, .ImageBorderEastsideProjectsTop{
+    .ImageBorderEastsideProjectsThree,
+    .ImageBorderEastsideProjectsTop {
         width: 100%;
     }
 
-    .ImageBorderEastsideProjectsTwo {padding-bottom: 5%}
-    .ImageBorderEastsideProjectsThree {padding-top: 5%}
-    .ImageBorderEastsideProjectsTop, .ImageBorderEastsideProjectsEnd{
+    .ImageBorderEastsideProjectsTwo {
         padding-bottom: 5%;
-        padding-top: 5%;}
+    }
+    .ImageBorderEastsideProjectsThree {
+        padding-top: 5%;
+    }
+    .ImageBorderEastsideProjectsEnd,
+    .ImageBorderEastsideProjectsTop {
+        padding-bottom: 5%;
+        padding-top: 5%;
+    }
 
     .EastsideProjectsText {
         font-size: 13px;
-        overflow:scroll;
-        height:40em;
+        overflow: scroll;
+        height: 40em;
         overflow-x: hidden;
-        scrollbar-width:thick;
-        padding-left:2%;
-        direction:rtl; 
-           }
+        scrollbar-width: thick;
+        padding-left: 2%;
+        direction: rtl;
+    }
 
-
-     h2 {
-         font-size: 38px;
-     }
+    h2 {
+        font-size: 38px;
+    }
 }
 
 /*tablet landscape*/
-@media screen and (min-width: 1200px) and (max-width: 1599px)  {
+@media screen and (min-width: 1200px) and (max-width: 1599px) {
 
-    .ImageBorderEastsideProjectsThree, .ImageBorderEastsideProjectsTop{
+    .ImageBorderEastsideProjectsThree,
+    .ImageBorderEastsideProjectsTop {
         width: 100%;
     }
 
-    .ImageBorderEastsideProjectsTwo {padding-bottom: 5%}
-    .ImageBorderEastsideProjectsThree {padding-top: 5%}
-    .ImageBorderEastsideProjectsTop, .ImageBorderEastsideProjectsEnd{
+    .ImageBorderEastsideProjectsTwo {
         padding-bottom: 5%;
-        padding-top: 5%;}
+    }
+    .ImageBorderEastsideProjectsThree {
+        padding-top: 5%;
+    }
+    .ImageBorderEastsideProjectsEnd,
+    .ImageBorderEastsideProjectsTop {
+        padding-bottom: 5%;
+        padding-top: 5%;
+    }
 
     .EastsideProjectsTextWrapper {
-        padding-top:5%; 
+        padding-top: 5%;
     }
 
     .EastsideProjectsText {
         font-size: 13px;
-          
-        }
-     h2 {
-         font-size: 38px;
-     }
 
-} /*end media query*/
+    }
+    h2 {
+        font-size: 38px;
+    }
+
+}
+/*end media query*/
 
 /*tablet portrait*/
-@media screen and (min-width: 768px) and (max-width: 1023px)  {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
 
-    .ImageBorderEastsideProjectsThree, .ImageBorderEastsideProjectsTop, .ImageBorderEastsideProjectsEnd {
+    .ImageBorderEastsideProjectsEnd,
+    .ImageBorderEastsideProjectsThree,
+    .ImageBorderEastsideProjectsTop {
         width: 100%;
     }
 
-    
-    .ImageBorderEastsideProjectsTwo {padding-bottom: 5%}
-    .ImageBorderEastsideProjectsThree {padding-top: 5%}
-    .ImageBorderEastsideProjectsTop, .ImageBorderEastsideProjectsEnd{
+    .ImageBorderEastsideProjectsTwo {
         padding-bottom: 5%;
-        padding-top: 5%;}
+    }
+    .ImageBorderEastsideProjectsThree {
+        padding-top: 5%;
+    }
+    .ImageBorderEastsideProjectsEnd,
+    .ImageBorderEastsideProjectsTop {
+        padding-bottom: 5%;
+        padding-top: 5%;
+    }
 
-    .columnOneEastsideProjects, .columnTwoEastsideProjects {
+    .columnOneEastsideProjects,
+    .columnTwoEastsideProjects {
 
-        width: 100%;       
+        width: 100%;
     }
 
     .EastsideProjectsText {
         font-size: 13px;
-        overflow:scroll;
-        height:30em;
+        overflow: scroll;
+        height: 30em;
         overflow-x: hidden;
-        scrollbar-width:thick;
-        padding-left:2%;
-        direction:rtl; 
-           }
- 
-     h2 {
-         font-size: 20px;
-     }
+        scrollbar-width: thick;
+        padding-left: 2%;
+        direction: rtl;
+    }
 
-}/*end media query*/
+    h2 {
+        font-size: 20px;
+    }
 
+}
+/*end media query*/
 
 /*smartphone landscape*/
-@media screen and (min-width: 480px) and (max-width: 767px)  {
+@media screen and (min-width: 480px) and (max-width: 767px) {
 
     .columnOneEastsideProjects {
         width: auto;
-        flex-direction: column; 
-        padding-bottom:1%;  
+        flex-direction: column;
+        padding-bottom: 1%;
     }
 
-    
     .columnTwoEastsideProjects {
         width: 100%;
         height: auto;
-        flex-direction:column;  
-        padding-top:1%;    
-      
+        flex-direction: column;
+        padding-top: 1%;
+
     }
 
-    .EastsideProjectsTextCenter {padding-bottom: 5%}
+    .EastsideProjectsTextCenter {
+        padding-bottom: 5%;
+    }
 
-    .EastsideProjectsText{
-        height:100%;
+    .EastsideProjectsText {
+        height: 100%;
         font-size: 13px;
     }
-    
-    .ImageBorderEastsideProjectsTop, .ImageBorderEastsideProjectsThree {
-        display:none;
-    } 
+
+    .ImageBorderEastsideProjectsThree,
+    .ImageBorderEastsideProjectsTop {
+        display: none;
+    }
 
     .ImageBorderEastsideProjectsOne {
         padding-top: 5%;
@@ -250,66 +286,74 @@ h2 { font-family: 'Frank Ruhl Libre';
         padding-bottom: 5%;
     }
 
-}/*End media query*/
-
-
+}
+/*End media query*/
 
 /*smartphone portrait*/
-@media screen and (min-width: 0px)
-and (max-width: 479px) {
+@media screen and (min-width: 0px) and (max-width: 479px) {
 
     .columnOneEastsideProjects {
         width: 100%;
         height: auto;
-        flex-direction: column; 
-        padding-bottom:1%  
+        flex-direction: column;
+        padding-bottom: 1%;
     }
 
     .columnTwoEastsideProjects {
         width: 100%;
         height: auto;
-        flex-direction:column;  
-        padding-top:1%    
-      
+        flex-direction: column;
+        padding-top: 1%;
     }
 
-    .EastsideProjectsText{
-        height:100%;
+    .EastsideProjectsText {
+        height: 100%;
         font-size: 13px;
         padding-bottom: 5%;
     }
-    
-    .ImageBorderEastsideProjectsTop, .ImageBorderEastsideProjectsThree {
-        display:none;
-    } 
+
+    .ImageBorderEastsideProjectsThree,
+    .ImageBorderEastsideProjectsTop {
+        display: none;
+    }
 
     .ImageBorderEastsideProjectsOne {
         padding-top: 10%;
     }
 
-}/*end media query*/
+}
+/*end media query*/
 
 /*Large Screens */
 @media screen and (min-width: 1600px) and (max-width:10000px) {
-    .ImageBorderEastsideProjectsThree, .ImageBorderEastsideProjectsTop, .ImageBorderEastsideProjectsEnd {
+    .ImageBorderEastsideProjectsEnd,
+    .ImageBorderEastsideProjectsThree,
+    .ImageBorderEastsideProjectsTop {
         width: 100%;
     }
 
-    .ImageBorderEastsideProjectsTwo {padding-bottom: 5%}
-    .ImageBorderEastsideProjectsThree {padding-top: 5%}
-    .ImageBorderEastsideProjectsTop, .ImageBorderEastsideProjectsEnd{
+    .ImageBorderEastsideProjectsTwo {
         padding-bottom: 5%;
-        padding-top: 5%;}
+    }
+    .ImageBorderEastsideProjectsThree {
+        padding-top: 5%;
+    }
+    .ImageBorderEastsideProjectsEnd,
+    .ImageBorderEastsideProjectsTop {
+        padding-bottom: 5%;
+        padding-top: 5%;
+    }
 
     .EastsideProjectsTextWrapper {
-        padding-top:5%; 
+        padding-top: 5%;
     }
 
     .EastsideProjectsText {
         font-size: 20px;
-          
-        }
-     h2 {
-         font-size: 40px;
-     }
-}/*end media query*/
+
+    }
+    h2 {
+        font-size: 40px;
+    }
+}
+/*end media query*/

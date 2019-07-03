@@ -1,48 +1,58 @@
-* {cursor:crosshair;
-    zoom: reset;}
-
+* {
+    cursor: crosshair;
+    zoom: reset;
+}
 
 .HomePage > .flex-container {
     display: flex;
     flex-flow: wrap column;
     justify-content: space-between;
     padding-left: 10%;
-    padding-right:10%; 
+    padding-right: 10%;
     justify-content: center;
     align-items: center;
-    padding-top:3%;
-    cursor:crosshair;
+    padding-top: 3%;
+    cursor: crosshair;
     height: 100%;
 
-   
 }
 
-    .col-1 {width: 8.33%;
-    }
-    .col-2 {width: 16.66%;
-    }
-    .col-3 {width: 25%;
-    }
-    .col-4 {width: 33.33%;
-    }
-    .col-5 {width: 41.66%;
-    }
-    .col-6 {width: 50%;
-    }
-    .col-7 {width: 58.33%;
-    }
-    .col-8 {width: 66.66%;
-    }
-    .col-9 {width: 75%;
-    }
-    .col-10 {width: 83.33%;
-    }
-    .col-11 {width: 91.66%;
-    }
-    .col-12 {width: 100%;
-    }
-
-
+.col-1 {
+    width: 8.33%;
+}
+.col-2 {
+    width: 16.66%;
+}
+.col-3 {
+    width: 25%;
+}
+.col-4 {
+    width: 33.33%;
+}
+.col-5 {
+    width: 41.66%;
+}
+.col-6 {
+    width: 50%;
+}
+.col-7 {
+    width: 58.33%;
+}
+.col-8 {
+    width: 66.66%;
+}
+.col-9 {
+    width: 75%;
+}
+.col-10 {
+    width: 83.33%;
+}
+.col-11 {
+    width: 91.66%;
+}
+.col-12 {
+    width: 100%;
+}
 
 /* Images */
 
@@ -53,148 +63,146 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 0%;
-    margin-bottom: 0%;
+    padding-bottom: 0;
+    margin-bottom: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-   
+
 }
 
-
-.ImageBorderHomeTop { 
+.ImageBorderHomeTop {
     max-width: 100%;
     max-height: 25%;
     display: block;
-    margin: 0;
-    margin-left: auto;
-    margin-right: auto;
-   
+    margin: 0 auto;
+
 }
 
-
-        
 /*Media*/
-
-@media screen and (min-width: 0px)
-and (max-width: 479px) {
+@media screen and (min-width: 0px) and (max-width: 479px) {
     .ImageOneHome {
         max-width: 100%;
         height: auto;
-        flex:column;  
+        flex: column;
         padding-top: 5%;
-        padding-bottom: 0%;}
-
-        .ImageTwoHome { max-width: 100%;
-            height: auto;
-            flex:column;  
-            padding-top: 5%;
-            padding-bottom: 0%;
-            -moz-transform: scale(-1, -1);
-            -o-transform: scale(-1, -1);
-            -webkit-transform: scale(-1, -1);
-             transform: scale(-1, -1);}
-        
-    
-
-  .ImageBorderHomeTop {
-      padding-top: 18%; 
-  }
-
- /*Important for smartphone layout*/
-    .col-5  
-    {width: 100%;} 
-
+        padding-bottom: 0;
     }
 
-    @media screen and (min-width: 480px)
-and (max-width: 767px) {
+    .ImageTwoHome {
+        max-width: 100%;
+        height: auto;
+        flex: column;
+        padding-top: 5%;
+        padding-bottom: 0;
+        -moz-transform: scale(-1, -1);
+        -o-transform: scale(-1, -1);
+        -webkit-transform: scale(-1, -1);
+        transform: scale(-1, -1);
+    }
+
+    .ImageBorderHomeTop {
+        padding-top: 18%;
+    }
+
+    /*Important for smartphone layout*/
+    .col-5 {
+        width: 100%;
+    }
+
+}
+@media screen and (min-width: 479px) and (max-width: 767px) {
     .ImageOneHome {
         max-width: 100%;
         height: auto;
-        flex:column;  
-        padding-top:5%;}
-
-  .ImageBorderHomeTop {
-      padding-top: 13%; 
-  }
-
-  .ImageTwoHome { max-width: 100%;
-    height: auto;
-    flex:column;  
-    padding-top: 5%;
-    padding-bottom: 0%;
-    -moz-transform: scale(-1, -1);
-    -o-transform: scale(-1, -1);
-    -webkit-transform: scale(-1, -1);
-     transform: scale(-1, -1);}
-  
- /*Important for smartphone layout*/
-    .col-5  
-    {width: 100%;} 
-
+        flex: column;
+        padding-top: 5%;
     }
 
-    @media screen and (min-width: 768px) and (max-width: 1023px) 
-    {
-        .ImageTwoHome
-        {max-width: 85%;
-            height: auto;
-            flex:column;  
-            padding-top: 3%;
-            padding-bottom: 0%;
-            margin-left:7.5%;
-            margin-right:7.5%;
-            -moz-transform: scale(-1, -1);
-            -o-transform: scale(-1, -1);
-            -webkit-transform: scale(-1, -1);
-             transform: scale(-1, -1);}
-    
-        .ImageOneHome {
-            max-width: 85%;
-            height: auto;
-            flex:column;  
-            padding-top:3%;
-           }
-
-
-        .ImageBorderHomeTop {
-                padding-top: 8%;
-                padding-bottom:5%; 
-            }
+    .ImageBorderHomeTop {
+        padding-top: 13%;
     }
 
-    @media screen and (min-width: 1024px) and (max-width: 1199px){
-        .ImageTwoHome
-        {display: none;}  
-
-        .ImageOneHome {
-            max-width: 85%;
-            height: auto;
-            flex:column;  
-            padding-top:2%;
-            padding-bottom: 2%;}
-
-        .ImageBorderHomeTop {
-            padding-top: 5%; 
-            padding-bottom: 5%; 
-            }
+    .ImageTwoHome {
+        max-width: 100%;
+        height: auto;
+        flex: column;
+        padding-top: 5%;
+        padding-bottom: 0;
+        -moz-transform: scale(-1, -1);
+        -o-transform: scale(-1, -1);
+        -webkit-transform: scale(-1, -1);
+        transform: scale(-1, -1);
     }
 
-    @media screen and (min-width: 1200px) and (max-width: 10000px) {
-        .ImageTwoHome
-        {display: none;}  
-
-        .ImageOneHome {
-            max-width: 80%;
-            height: auto;
-            flex:column;  
-            padding-top:2%;
-            padding-bottom: 2%;}
-
-        .ImageBorderHomeTop {
-            width: 100%;
-            padding-top: 7%;
-            padding-bottom:5%;
-            }
+    /*Important for smartphone layout*/
+    .col-5 {
+        width: 100%;
     }
+
+}
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+    .ImageTwoHome {
+        max-width: 85%;
+        height: auto;
+        flex: column;
+        padding-top: 3%;
+        padding-bottom: 0;
+        margin-left: 7.5%;
+        margin-right: 7.5%;
+        -moz-transform: scale(-1, -1);
+        -o-transform: scale(-1, -1);
+        -webkit-transform: scale(-1, -1);
+        transform: scale(-1, -1);
+    }
+
+    .ImageOneHome {
+        max-width: 85%;
+        height: auto;
+        flex: column;
+        padding-top: 3%;
+    }
+
+    .ImageBorderHomeTop {
+        padding-top: 8%;
+        padding-bottom: 5%;
+    }
+}
+@media screen and (min-width: 1024px) and (max-width: 1199px) {
+    .ImageTwoHome {
+      display:none;
+    }
+
+    .ImageOneHome {
+        max-width: 50%;
+        height: auto;
+        flex: column;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+
+    .ImageBorderHomeTop {
+        padding-top: 5%;
+
+    }
+}
+@media screen and (min-width: 1200px) and (max-width: 10000px) {
+    .ImageTwoHome {
+        display: none;
+    }
+
+    .ImageOneHome {
+        max-width: 75%;
+        height: auto;
+        flex: column;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        padding-bottom: 0;
+    }
+
+    .ImageBorderHomeTop {
+        width: 100%;
+        padding-top: 7%;
+        padding-bottom: 5%;
+    }
+}

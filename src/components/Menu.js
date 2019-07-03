@@ -7,32 +7,48 @@ class Menu extends Component {
 
             <div className="Menu flex-container">
 
-                <div className="navbar">
+                    <a className="titleMenuMobile" href="#linkMenu">
+                        c h l o e | a s h l e y</a>
 
-                    <a href="#linkMenu">a b o u t</a>
+                    <div className="navbar">
+                    <br />
+                    <li>
+                        <a className=" mobileMenu mobileMenuOne" href="#link2018">2 0 1 8</a>
+                    </li>
+                    <li>
+                        <a className=" mobileMenu mobileMenuTwo" href="#link2017">2 0 1 7</a>
+                    </li>
+                    <li>
+                        <a className=" mobileMenu mobileMenuThree" href="#link2016">2 0 1 6</a>
+                    </li>
+                  
 
-                </div>
-                <p className="titleMenu">
-                    c h l o e | a s h l e y</p>
+                    <a className="mobileMenu mobileMenuAbout" href="#linkMenu">a b o u t</a>
 
-                <div className="dropdown">
-                    <a href="#linkhome">
-                        <button className="dropbtn">w o r k
-                            <i className="fa fa-caret-down"></i>
-                        </button>
-                    </a>
+                    <p className="titleMenuLaptop">
+                        c h l o e | a s h l e y</p>
 
-                    <div className="dropdown-content">
-                        <a href="#link2018">2 0 1 8</a>
-                        <a href="#link2017">2 0 1 7</a>
-                        <a href="#link2016">2 0 1 6</a>
+                   
+
+                    <div className="dropdown">
+                        <a href="#linkhome">
+                            <button className="dropbtn">w o r k
+                                <i className="fa fa-caret-down"></i>
+                            </button>
+                        </a>
+
+                        <div className="dropdown-content">
+                            <a href="#link2018">2 0 1 8</a>
+                            <a href="#link2017">2 0 1 7</a>
+                            <a href="#link2016">2 0 1 6</a>
+                        </div>
+
                     </div>
-
                 </div>
             </div>
-
+       
         );
     }
-}
+    }
+export default Menu; 
 
-export default Menu;
