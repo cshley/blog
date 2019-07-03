@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import './summercamp.css';
-import one from '../images/one.png';
+import one from '../images/summerCampMinerals.png';
 import nineteen from '../images/nineteen.png';
 import seventeen from '../images/seventeen.png';
 import eighteen from '../images/eighteen.png';

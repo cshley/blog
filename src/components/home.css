@@ -196,8 +196,8 @@
     }
 
     .ImageBorderHomeTop {
-        padding-top: 8%;
-        padding-bottom: 5%;
+        padding-top: 10%;
+        padding-bottom: 3%;
     }
 }
 @media screen and (min-width: 1024px) and (max-width: 1199px) {
@@ -214,7 +214,8 @@
     }
 
     .ImageBorderHomeTop {
-        padding-top: 5%;
+        padding-top:10%;
+        padding-bottom: 2%;
 
     }
 }
@@ -235,6 +236,6 @@
     .ImageBorderHomeTop {
         width: 100%;
         padding-top: 7%;
-        padding-bottom: 5%;
+        padding-bottom: 2%;
     }
 }

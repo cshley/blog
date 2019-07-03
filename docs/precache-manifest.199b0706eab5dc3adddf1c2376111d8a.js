@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "de333fba3b0b26c32e2b5e5ffb5ce656",
+    "revision": "a32a0e88406725b40e621dff9206148d",
     "url": "/blog/index.html"
   },
   {
-    "revision": "81aab5f37881266b3c0b",
-    "url": "/blog/static/css/main.159dcf48.chunk.css"
+    "revision": "e95d42bd9c2f5f25a9d8",
+    "url": "/blog/static/css/main.852da24d.chunk.css"
   },
   {
     "revision": "8674b66fdbef2b5d6eb8",
     "url": "/blog/static/js/2.c3a6de79.chunk.js"
   },
   {
-    "revision": "81aab5f37881266b3c0b",
-    "url": "/blog/static/js/main.8ea94f12.chunk.js"
+    "revision": "e95d42bd9c2f5f25a9d8",
+    "url": "/blog/static/js/main.ee544f77.chunk.js"
   },
   {
     "revision": "eeecc51c3b4e3b0a67a2",
@@ -44,10 +44,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/blog/static/media/nineteen.332870ab.png"
   },
   {
-    "revision": "8f49f921d48c093208651fb6764ed0f9",
-    "url": "/blog/static/media/one.8f49f921.png"
-  },
-  {
     "revision": "5a59e99669dd3f1e2fa7263bb5284df6",
     "url": "/blog/static/media/seven.5a59e996.jpg"
   },
@@ -62,6 +58,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e122c6ddeaf2bb39f724cfc53a97ef04",
     "url": "/blog/static/media/sixteen.e122c6dd.jpg"
+  },
+  {
+    "revision": "8f49f921d48c093208651fb6764ed0f9",
+    "url": "/blog/static/media/summerCampMinerals.8f49f921.png"
   },
   {
     "revision": "7f9cfbcef63e2db76ed67c144746a8cc",
