@@ -3,58 +3,70 @@
     flex-wrap: wrap;
     justify-content: space-between;
     padding-left: 10%;
-    padding-right:10%; 
-    cursor:crosshair;
-    height: 100%;   
+    padding-right: 10%;
+    cursor: crosshair;
+    height: 100%;
 
 }
 
-    .col-1 {width: 8.33vw;
-    }
-    .col-2 {width: 16.66%;
-    }
-    .col-3 {width: 25%;
-    }
-    .col-4 {width: 33.33%;
-    }
-    .col-5 {width: 41.66%;
-    }
-    .col-6 {width: 50%;
-    }
-    .col-7 {width: 58.33%;
-    }
-    .col-8 {width: 66.66%;
-    }
-    .col-9 {width: 75%;
-    }
-    .col-10 {width: 83.33%;
-    }
-    .col-11 {width: 91.66%;
-    }
-    .col-12 {width: 100%;
-    }
+.col-1 {
+    width: 8.33vw;
+}
+.col-2 {
+    width: 16.66%;
+}
+.col-3 {
+    width: 25%;
+}
+.col-4 {
+    width: 33.33%;
+}
+.col-5 {
+    width: 41.66%;
+}
+.col-6 {
+    width: 50%;
+}
+.col-7 {
+    width: 58.33%;
+}
+.col-8 {
+    width: 66.66%;
+}
+.col-9 {
+    width: 75%;
+}
+.col-10 {
+    width: 83.33%;
+}
+.col-11 {
+    width: 91.66%;
+}
+.col-12 {
+    width: 100%;
+}
 
-    /* Text */
+/* Text */
 
-h2 {font-family: 'Frank Ruhl Libre';
-    color:#c997ff;
+h2 {
+    font-family: 'Frank Ruhl Libre';
+    color: #c997ff;
     font-size: 18px;
     letter-spacing: 1.5em;
     text-align: center;
     position: relative;
     left: 5%;
-    }
+}
 
 .nagwText {
     font-family: 'Frank Ruhl Libre';
     color: #FFB500;
-    font-size: 13px;
-    word-wrap:normal;
-    text-align:left;
-    }
+    word-wrap: normal;
+    text-align: left;
+}
 
 .nagwTextCenter {
-    text-align:center;
+    text-align: center;
 }
 
 .purple {
@@ -62,18 +74,21 @@ h2 {font-family: 'Frank Ruhl Libre';
 }
 
 /* Link */
-
-#link2016:target:before  {
-    content:"";
-    display:block;
-    height:200px; 
-    margin:-200px 0 0;
-      }
-    
+#link2016:target:before {
+    content: "";
+    display: block;
+    height: 200px;
+    margin: -200px 0 0;
+}
 
 /* Images */
 
-.ImageOneNAGW, .ImageTwoNAGW, .ImageThreeNAGW, .ImageFourNAGW, .ImageFiveNAGW, .ImageSixNAGW {
+.ImageFiveNAGW,
+.ImageFourNAGW,
+.ImageOneNAGW,
+.ImageSixNAGW,
+.ImageThreeNAGW,
+.ImageTwoNAGW {
     max-width: 100%;
     max-height: auto;
     flex-wrap: wrap;
@@ -85,29 +100,29 @@ h2 {font-family: 'Frank Ruhl Libre';
     position: relative;
     width: auto;
     max-width: 100%;
-  }
+}
 
-
-.NAGWoverlay  {
+.NAGWoverlay {
     position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
     opacity: 0;
-    transition: .1s ease;
+    transition: 0.1s ease;
     background-color: #c997ff;
-    
-  }
 
-  .container:hover .NAGWoverlay {
+}
+.container:hover .NAGWoverlay {
     opacity: 0.2;
-  }
-
+}
 
 /* Border */
 
-.ImageBorderNAGWOne,.ImageBorderNAGWTwo,.ImageBorderNAGWThree, .ImageBorderNAGWEnd {
+.ImageBorderNAGWEnd,
+.ImageBorderNAGWOne,
+.ImageBorderNAGWThree,
+.ImageBorderNAGWTwo {
     max-width: 100%;
     max-height: 25%;
     display: block;
@@ -118,14 +133,14 @@ h2 {font-family: 'Frank Ruhl Libre';
 /* Media Queries */
 
 /*smartphone portrait*/
-@media screen and (min-width: 0px)
-and (max-width: 479px) {
+@media screen and (min-width: 0px) and (max-width: 479px) {
 
-    .columnOneNAGW,  .columnTwoNAGW {
+    .columnOneNAGW,
+    .columnTwoNAGW {
         width: 100%;
         height: auto;
-        flex-direction: column; 
-        padding-bottom:1%; 
+        flex-direction: column;
+        padding-bottom: 1%;
         height: 80%;
         flex-wrap: wrap;
     }
@@ -133,155 +148,63 @@ and (max-width: 479px) {
     .columnOneNAGW {
         order: 2;
         -webkit-order: 2;
-      
+
     }
-    .columnTwoNAGW { 
+    .columnTwoNAGW {
         order: 1;
         -webkit-order: 1;
     }
-      
 
-    .nagwText{
-        height:100%;
+    .nagwText {
+        height: 100%;
         font-size: 14px;
-        padding-bottom: 5%
-
+        padding-bottom: 5%;
     }
-    
-    .ImageBorderNAGWTop, .ImageBorderNAGWEnd {
-        display:none;
-    } 
+
+    .ImageBorderNAGWEnd,
+    .ImageBorderNAGWTop {
+        display: none;
+    }
 
     .ImageBorderNAGWOne {
         padding-top: 10%;
     }
-
-    #link2016:target:before  {
-        content:"";
-        display:block;
-        height:90px; 
-        margin:-90px 0 0;
-          }
+    #link2016:target:before {
+        content: "";
+        display: block;
+        height: 90px;
+        margin: -90px 0 0;
+    }
 
 }
-
-/*Mac*/
-
-@media screen and (min-width: 1024px) and (max-width: 1199px)  {
-
-    .ImageBorderNAGWThree, .ImageBorderNAGWTop{
-        width: 100%;
-    }
-
-    .ImageBorderNAGWTwo {
-        padding-bottom: 5%;
-    }
-     .ImageBorderNAGWEnd {
-         padding-top: 5%;
-     }
-
-    .nagwTextWrapper {
-        padding-top:5%; 
-        overflow:scroll;
-        overflow-x: hidden;
-        scrollbar-width: thick;
-        padding-right:2%;
-        height:30em;
-    }
-    
-
-     h2 {
-         font-size: 38px;
-        
-     }
-}
-
-
-/*tablet landscape*/
-
-@media screen and (min-width: 1199px) and (max-width: 1599px)  {
-
-    .ImageBorderNAGWThree, .ImageBorderNAGWTop{
-        width: 100%;
-    }
-
-    .ImageBorderNAGWTwo {
-        padding-bottom: 5%;
-    }
-     .ImageBorderNAGWEnd {
-         padding-top: 5%;
-     }
-
-    .nagwTextWrapper {
-        padding-top:5%; 
-        overflow:scroll;
-        overflow-x: hidden;
-        scrollbar-width: thick;
-        padding-right:2%;
-        height:30em;
-    }
-    
-
-     h2 {
-         font-size: 38px;
-        
-     }
-}
-
-/*tablet portrait*/
-
-@media screen and (min-width: 768px) and (max-width: 1023px)  {
-
-    .ImageBorderNAGWThree, .ImageBorderNAGWTop, .ImageBorderNAGWEnd {
-        width: 100%;
-    }
-
-     .ImageBorderNAGWEnd {
-         padding-top: 5%;
-     }
-
-    .ImageBorderNAGWTwo {
-        padding-bottom: 5%;
-    }
-
-    .nagwText {
-        font-size: 13px;
-        overflow:scroll;
-        overflow-x: hidden;
-        scrollbar-width: thick;
-        padding-right:2%;
-        height:30em;
-          
-          }
- 
-     h2 {
-         font-size: 40px;
-     }
-
-}
-/*end media query*/
-
 
 /*smartphone landscape*/
-@media screen and (min-width: 480px) and (max-width: 767px)  {
+@media screen and (min-width: 480px) and (max-width: 767px) {
 
-    .columnOneNAGW, .columnTwoNAGW, .columnThree, .columnFour, .columnFive {
+    .columnFive,
+    .columnFour,
+    .columnOneNAGW,
+    .columnThree,
+    .columnTwoNAGW {
         width: auto;
-        flex-direction: column; 
-        padding-bottom:1%;
+        flex-direction: column;
+        padding-bottom: 1%;
         flex-wrap: wrap;
     }
-    
-    .ImageBorderNAGWTop, .ImageBorderNAGWEnd {
-        display:none;
+
+    .ImageBorderNAGWEnd,
+    .ImageBorderNAGWTop {
+        display: none;
     }
 
     .ImageBorderNAGWOne {
         padding-top: 5%;
     }
 
-    .nagwTextCenter {padding-bottom: 5%;
-        font-size: 12px;}
+    .nagwText {
+        padding-bottom: 5%;
+        font-size: 12px;
+    }
 
     .ImageBorderNAGWTwo {
         padding-bottom: 5%;
@@ -290,55 +213,147 @@ and (max-width: 479px) {
     .columnOneNAGW {
         order: 2;
         -webkit-order: 2;
-      
-      
+
     }
-    .columnTwoNAGW { 
+    .columnTwoNAGW {
         order: 1;
         -webkit-order: 1;
     }
+    #link2016:target:before {
+        content: "";
+        display: block;
+        height: 125px;
+        margin: -125px 0 0;
+    }
 
-    #link2016:target:before  {
-        content:"";
-        display:block;
-        height:125px; 
-        margin:-125px 0 0;
-          }
-      
+}
 
-}/*End media query*/
+/*tablet portrait*/
+@media screen and (min-width: 768px) and (max-width: 1023px) {
 
+    .ImageBorderNAGWEnd,
+    .ImageBorderNAGWThree,
+    .ImageBorderNAGWTop {
+        width: 100%;
+    }
 
+    .ImageBorderNAGWEnd {
+        padding-top: 5%;
+    }
 
+    .ImageBorderNAGWTwo {
+        padding-bottom: 5%;
+    }
 
+    .nagwText {
+        font-size: 13px;
+        overflow: scroll;
+        overflow-x: hidden;
+        scrollbar-width: thick;
+        padding-right: 2%;
+        height: 30em;
 
-/*Large Screens */
-@media screen and (min-width: 1600px) and (max-width:10000px) {
-    
-    .ImageBorderNAGWThree, .ImageBorderNAGWTop{
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+}
+
+/*Mac*/
+@media screen and (min-width: 1024px) and (max-width: 1199px) {
+
+    .ImageBorderNAGWThree,
+    .ImageBorderNAGWTop {
         width: 100%;
     }
 
     .ImageBorderNAGWTwo {
         padding-bottom: 5%;
     }
-     .ImageBorderNAGWEnd {
-         padding-top: 5%;
-     }
+    .ImageBorderNAGWEnd {
+        padding-top: 5%;
+    }
 
     .nagwTextWrapper {
-        padding-top:5%; 
-        overflow:scroll;
+        padding-top: 5%;
+        overflow: scroll;
         overflow-x: hidden;
         scrollbar-width: thick;
-        font-size: 20px;
-        padding-right:2%;
-        height:30em;
+        padding-right: 2%;
+        height: 30em;
+        font-size: 13px;
     }
-    
-     h2 {
-         font-size: 40px;
-        
-}
-}/*end media query*/
 
+    h2 {
+        font-size: 38px;
+
+    }
+}
+
+/*tablet landscape*/
+@media screen and (min-width: 1199px) and (max-width: 1599px) {
+
+    .ImageBorderNAGWThree,
+    .ImageBorderNAGWTop {
+        width: 100%;
+    }
+
+    .ImageBorderNAGWTwo {
+        padding-bottom: 5%;
+    }
+    .ImageBorderNAGWEnd {
+        padding-top: 5%;
+    }
+
+    .nagwTextWrapper {
+        padding-top: 5%;
+        overflow: scroll;
+        overflow-x: hidden;
+        scrollbar-width: thick;
+        padding-right: 2%;
+        height: 30em;
+        font-size: 13px;
+    }
+
+    h2 {
+        font-size: 38px;
+
+    }
+}
+
+/*Large Screens */
+@media screen and (min-width: 1600px) and (max-width:10000px) {
+
+    .ImageBorderNAGWThree,
+    .ImageBorderNAGWTop {
+        width: 100%;
+    }
+
+    .ImageBorderNAGWTwo {
+        padding-bottom: 5%;
+    }
+    .ImageBorderNAGWEnd {
+        padding-top: 5%;
+    }
+
+    .nagwTextWrapper {
+        padding-top: 5%;
+        overflow: scroll;
+        overflow-x: hidden;
+        scrollbar-width: thick;
+        padding-right: 2%;
+        height: 30em;
+        font-size: 20px;
+    }
+
+  
+
+    h2 {
+        font-size: 40px;
+
+    }
+}
+
+/*end media queries*/

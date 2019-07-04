@@ -31,7 +31,7 @@ class AboutCV extends Component {
                                         <p className="purple">2019</p>
                                         <p>HTML/CSS/JAVASCRIPT/REACT</p>
 
-                                        <p className="purple">2018|2017|2016</p>
+                                        <p className="purple">2016|2017|2018</p>
                                         <p>Previous work explored the medium of analogue photography within a site
                                             responsive context. I was particularly interested in photography’s process,
                                             materiality and history, and through the exploration of these elements, seeked
