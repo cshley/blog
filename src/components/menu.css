@@ -466,7 +466,7 @@
               top: 5%;
               white-space: nowrap;
               float: left;
-              padding: 8% 0 2%;
+              padding: 7% 0 2%;
               text-decoration: none;
               font-size: 25px;
               width: 33.3%;
@@ -489,6 +489,8 @@
         
               white-space: nowrap;
           }
+
+       
         }
       
 
