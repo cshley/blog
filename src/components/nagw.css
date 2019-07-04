@@ -169,13 +169,12 @@ h2 {
     .ImageBorderNAGWOne {
         padding-top: 10%;
     }
-    #link2016:target:before {
-        content: "";
-        display: block;
-        height: 90px;
-        margin: -90px 0 0;
-    }
-
+    #link2016:target:before  {
+        content:"";
+        display:block;
+        height:120px; 
+        margin:-120px 0 0;
+          }
 }
 
 /*smartphone landscape*/
@@ -222,8 +221,8 @@ h2 {
     #link2016:target:before {
         content: "";
         display: block;
-        height: 125px;
-        margin: -125px 0 0;
+        height: 150px;
+        margin: -150px 0 0;
     }
 
 }
@@ -258,6 +257,15 @@ h2 {
     h2 {
         font-size: 40px;
     }
+
+    #link2016:target:before {
+        content: "";
+        display: block;
+        height: 250px;
+        margin: -250px 0 0;
+    }
+
+  
 
 }
 
@@ -321,6 +329,13 @@ h2 {
         font-size: 38px;
 
     }
+
+    #link2016:target:before {
+        content: "";
+        display: block;
+        height: 200px;
+        margin: -200px 0 0;
+    }
 }
 
 /*Large Screens */
@@ -358,8 +373,8 @@ h2 {
     #link2016:target:before {
         content: "";
         display: block;
-        height: 50px;
-        margin: -50px 0 0;
+        height: 350px;
+        margin: -350px 0 0;
     }
 
 }

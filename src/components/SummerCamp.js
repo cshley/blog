@@ -81,9 +81,8 @@ class SummerCamp extends Component {
 
                                         <p>Myriophyllum Spicatum is a submerged aquatic plant that grows in still or
                                             slow moving waters. The species is extremely invasive and grows quickly,
-                                            overcrowding areas and
-                                            <i>
-                                                continually creating dark spaces.
+                                            overcrowding areas and 
+                                            <i> continually creating dark spaces. 
                                             </i>
                                             When exposed to blue green algae, Myriophyllum Spicatum produces chemicals such
                                             as gallic and pyrogallic acid, preventing the algae’s development.</p>
@@ -125,10 +124,10 @@ class SummerCamp extends Component {
                                                 shells. indigestion relief.</p>
 
                                         <p>The important constituents of a photographic developer are; the development
-                                            agent, such as gallic or pyrogallic acid, (see
-                                            <i>Myriophyllum Spicatum</i>
+                                            agent, such as gallic or pyrogallic acid, (see 
+                                            <i> Myriophyllum Spicatum </i> 
                                             and
-                                            <i>Peat Bog</i>
+                                             <i> Peat Bog </i>
                                             ) and an alkali. A developing agent is a reducing agent that will remove halogen
                                             particles, but only if a latent image is present. Nearly all developing agents
                                             only operate efficiently in an alkaline solution (i.e at a pH greater than 7).</p>

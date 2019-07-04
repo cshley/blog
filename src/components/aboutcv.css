@@ -156,12 +156,12 @@ h2 {
     .ImageBorderAboutCVTop {
         display: none;
     }
-    #linkMenu:target:before {
-        content: "";
-        display: block;
-        height: 130px;
-        margin: -130px 0 0;
-    }
+    #linkMenu:target:before  {
+        content:"";
+        display:block;
+        height:158px; 
+        margin:-158px 0 0;
+          }
 
 }
 
@@ -208,8 +208,8 @@ h2 {
     #linkMenu:target:before {
         content: "";
         display: block;
-        height: 160px;
-        margin: -160px 0 0;
+        height: 200px;
+        margin: -200px 0 0;
     }
 
 }
@@ -263,6 +263,15 @@ h2 {
         display: none;
     }
 
+
+    #linkMenu:target:before {
+        content: "";
+        display: block;
+        height: 280px;
+        margin: -280px 0 0;
+    }
+
+
 }
 
 /*tablet landscape*/
@@ -311,6 +320,15 @@ h2 {
     .aboutCVTitle {
         display: none;
     }
+
+    
+    #link2016:target:before {
+        content: "";
+        display: block;
+        height: 300px;
+        margin: -300px 0 0;
+    }
+
 
 }
 

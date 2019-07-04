@@ -175,6 +175,14 @@ h2 {font-family: 'Frank Ruhl Libre';
      h2 {
          font-size: 38px;
      }
+
+
+    #link2018:target:before {
+        content: "";
+        display: block;
+        height: 300px;
+        margin: -300px 0 0;
+    }
 }
 
 /*tablet portrait*/
@@ -205,6 +213,15 @@ h2 {font-family: 'Frank Ruhl Libre';
      h2 {
          font-size: 40px;
      }
+
+
+    #link2018:target:before {
+        content: "";
+        display: block;
+        height: 240px;
+        margin: -240px 0 0;
+    }
+
 
 }
 /*end media query*/
@@ -250,13 +267,12 @@ h2 {font-family: 'Frank Ruhl Libre';
 
     h2 {font-size: 25px;}
 
-    #link2018:target:before  {
-        content:"";
-        display:block;
-        height:125px; 
-        margin:-125px 0 0;
-          }
-
+    #link2018:target:before {
+        content: "";
+        display: block;
+        height: 150px;
+        margin: -150px 0 0;
+    }
 
 
 }/*End media query*/
@@ -303,8 +319,8 @@ and (max-width: 479px) {
     #link2018:target:before  {
         content:"";
         display:block;
-        height:90px; 
-        margin:-90px 0 0;
+        height:120px; 
+        margin:-120px 0 0;
           }
 
 }/*end media query*/
@@ -336,5 +352,14 @@ and (max-width: 479px) {
      h2 {
          font-size: 38px;
      }
+
+
+     #link2018:target:before {
+        content: "";
+        display: block;
+        height: 350px;
+        margin: -350px 0 0;
+    }
+
     
 }/*end media query*/
